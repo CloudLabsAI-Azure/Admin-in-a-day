@@ -26,3 +26,34 @@ Platform admin center.
 3. Select Power Automate. Select change filters and change to the Power Platform COE environment
 
     ![](images/L02-1.png)
+
+4. Review the visuals in the Runs tab and then select the Usage tab
+
+    ![](images/L02-2.png)
+    
+5. Review the visuals in the Usage tab.
+6. Review the visuals in the rest of the tabs.
+7. In the upper right corner change Environment level analytics to Tenant level analytics
+
+     ![](images/L02-3.png)
+     
+8. Now you are looking at data for all environments you have access to.
+9. Review the Usage data and then switch to Maker Activity and Inventory and review the data available. Notice you can still filter on more specific criteria
+
+     ![](images/L02-4.png)
+     
+### Task 2: Explore the Power Apps analytics
+
+1. Navigate to Power Platform admin center
+2. Expand Power Apps.
+3. Review the visuals in all tabs.
+
+    ![](images/L02-5.png)
+    
+4. In the upper right corner change Environment level analytics to Tenant level analytics
+
+    ![](images/L02-6.png)
+    
+5. Now you are looking at data for all environments you have access to.
+6. Review the Usage data and then switch to Maker Activity and Inventory and review the data available. Notice you can still filter on more specific criteria.
+7. Hover your mouse over the far-right corner of data under Region and you can click on … to show more options
