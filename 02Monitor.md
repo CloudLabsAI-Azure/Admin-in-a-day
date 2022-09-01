@@ -1,4 +1,4 @@
-# Reporting and Telemetry
+# Lab 02-Reporting and Telemetry
 
 ### Lab Scenario
 
@@ -80,3 +80,19 @@ Platform admin center.
     ![](images/L02-11.png)
     
 1. Notice the Storage capacity by source.
+
+    ![](images/L02-12.png)
+    
+1. Go to the Top storage usage by environment section and notice the capacity usage by top environments
+
+    ![](images/L02-13.png)
+    
+1. Click to select the Dataverse tab.
+
+    ![](images/L02-14.png)
+    
+1. Locate the Device Ordering Development environment storage capacity and click Details.
+
+    ![](images/L02-15.png)
+    
+1. Click on the Chart menu button and select Download all tables.
