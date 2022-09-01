@@ -56,4 +56,20 @@ Platform admin center.
     
 5. Now you are looking at data for all environments you have access to.
 6. Review the Usage data and then switch to Maker Activity and Inventory and review the data available. Notice you can still filter on more specific criteria.
-7. Hover your mouse over the far-right corner of data under Region and you can click on … to show more options
+7. Hover your mouse over the far-right corner of data under Region and you can click on … to show more options.
+
+    ![](images/L02-7.png)
+    
+8. Select Export data
+
+    ![](images/L02-8.png)
+    
+9. If you have Excel installed choose one of the options and select Export. After the file downloads review the details available. If you don’t have Excel simply select Cancel
+
+    ![](images/L02-9.png)
+    
+### Task 3: Explore the Capacity analytics
+
+1. Navigate to Power Platform admin center
+2. Expand Resources and select Capacity.
+
