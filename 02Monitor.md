@@ -73,3 +73,10 @@ Platform admin center.
 1. Navigate to Power Platform admin center
 2. Expand Resources and select Capacity.
 
+    ![](images/L02-10.png)
+    
+3. Notice the Storage capacity usage.
+
+    ![](images/L02-11.png)
+    
+1. Notice the Storage capacity by source.
