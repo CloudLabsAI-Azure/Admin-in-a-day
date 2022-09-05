@@ -504,3 +504,29 @@ and looks for newly created canvas apps, flows and connectors and sends you an e
     
 12. The flow should have one run in progress.
 
+     ![](images/L02-78.png)
+     
+13. Wait for the flow run to complete and then click to open the run. You can refresh to see the updated status of the flow.
+
+      ![](images/L02-79.png)
+      
+14. Examine the flow run.
+
+      ![](images/L02-80.png)
+      
+15. Click **App launcher** and select **Outlook**. 
+
+      ![](images/L02-81.png)
+      
+16. Navigate to https://outlook.office.com/ 
+17. You should get an email from the flow. Open the email.
+
+     ![](images/L02-82.png)
+     
+17. The report should list flows, Power Apps, connectors in tables.
+
+     ![](images/L02-83.png)
+     
+In addition to simply seeing who is building what in your tenant you can also use the list of new connectors to evaluate if you need to adjust your DLP policies.
+
+
