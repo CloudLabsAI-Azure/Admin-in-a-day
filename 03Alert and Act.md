@@ -413,7 +413,7 @@ In this task you will be performing the administration review of the application
       
 7. After reviewing you can advance the process to the next stage by clicking the Next Stage. 
 
-       ![](images/L03-59.png)  
+      ![](images/L03-59.png)  
        
 8. In the Admin section change the Risk Assessment to Minor.
 9. The process guide will now have either Mitigation plan as the active stage or Access risk depending on if the maker indicated the app is critical or not, click Next    Stage again to advance.
