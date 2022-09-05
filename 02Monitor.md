@@ -455,3 +455,52 @@ In this exercise, you will be using the log search and alert tools to work with 
     
 7. Click **Audit search** from. 
 8. Click on the **Activities** dropdown.
+
+    ![](images/L02-72.png)
+    
+8. Select all **Power Apps and Power Automate** activities.
+9. Click **Search** again.
+10. Review the results.
+11. Look for an activity of Edited Flow, click on the item to open the detail. Review what data is provided. 
+12. A common task is to look at all activity for a particular user. Copy the user from this Edited flow activity and go back to the Audit search. 
+13. Paste the user you copied into the Users filter and click search again. Now you are looking at all the activity for a single user.
+14. Try clicking on an item to view detail. Copy the Item field and then go back to the list and click the filter results. Paste the item info you just copied into the     filed. The results list will now only show activities related to that item. For example, you could use this to show all activities for a specific flow.
+
+
+## Exercise 7: Get notification of new apps, flows and connectors (Optional if you have time)
+
+### Scenario
+
+In this exercise, you will be using one of the pre-built Power Automate templates that run on a schedule 
+and looks for newly created canvas apps, flows and connectors and sends you an email.
+
+### Task 1: Create the flow from the template
+
+1. Navigate to https://flow.microsoft.com and sign in.
+2. Make sure **Power Platform COE** environment is selected. Note: This environment is where the CoE starter kit is installed and is intended to be our dedicated admin    environment. Even if you don’t use the starter kit, having a dedicated admin environment can be helpful.
+
+    ![](images/L02-73.png)
+    
+3. **Paste the URL and press enter**. https://us.flow.microsoft.com/enus/galleries/public/templates/0b2ffb0174724ad6b4681728c0f53062/get-list-of-new-powerappsflows-and-connectors/
+4. Click **Sign in**.
+
+    ![](images/L02-74.png)
+    
+5. Select the user you are signed in as.
+6. Click sign in for each of the rest of the connectors.
+7. Click **Continue**.
+
+    ![](images/L02-75.png)
+    
+8. Examine the flow steps and then click **Flow Checker**. You may need to adjust the zoom of your browser to see all of the steps.
+
+    ![](images/L02-76.png)
+    
+9. There should be no errors.
+10. Click **Save**. 
+11. Click on the **back arrow**.
+
+    ![](images/L02-77.png)
+    
+12. The flow should have one run in progress.
+
