@@ -217,6 +217,47 @@ Now in this exercise, you will explore the following key components
 1. Navigate to Power Apps maker portal
 2. Select Power Platform CoE environment in the environment selector.
 
-   ![](images/L02-35.png)
+    ![](images/L02-35.png)
    
 3. Select Apps in the left navigation and you should see a list of available apps in this environment – click on **Power Platform Admin View**.
+
+    ![](images/L02-36.png)
+    
+4. When the app starts you will land on the Power Platform Dashboard page. This dashboard gives you a quick look at the most active makers, and environments.
+
+    ![](images/L02-37.png)
+    
+5. Click on Power Apps and you will see a list of all apps in all environments without having to visit each environment. The Flows navigation link does the same thing    for Microsoft Power Automate flows.
+6. Click on the Device Ordering App in the list to open the app details.
+
+    ![](images/L02-38.png)
+    
+7. On the details notice at the top you can see where the app is in the review process. 
+
+    ![](images/L02-39.png)
+    
+8. In the Audit tab you can see the Business Justification provided by the app maker using the Developer Compliance Center app. In the bottom part is where you as an      admin can provide your risk assessment. You can also tag the app to show in the App Catalog and make it featured. You can customize the CoE entities to add      additional fields here if needed.
+
+    ![](images/L02-40.png)
+    
+9. Click on Environments in the left navigation. This will show you a list of all the environments in your tenant and key metrics like number of apps.
+
+    ![](images/L02-41.png)
+    
+10. Click on the User and Team Productivity environment to open the detail form. 
+11. Review the data available.
+12. Click on the Connectors link in the left navigation. This shows all the connectors available.
+
+     ![](images/L02-42.png)
+     
+13. In the upper right corner search on Microsoft Dataverse.
+
+     ![](images/L02-43.png)
+     
+14. In the search results, click on the Microsoft Dataverse connector.
+
+     ![](images/L02-44.png)
+     
+15. The detail page quickly shows you what apps are using this connector in all environments in your tenant.
+16. Click on the Makers link in the left navigation, this shows you all the people that have built apps in your company
+17. Click on one of the Makers and explore the detail form.
