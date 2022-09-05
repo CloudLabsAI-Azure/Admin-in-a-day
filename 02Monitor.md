@@ -227,7 +227,7 @@ Now in this exercise, you will explore the following key components
 
     ![](images/L02-37.png)
     
-5. Click on **Power Apps** and you will see a list of all apps in all environments without having to visit each environment. The Flows navigation link does the same thing for Microsoft Power Automate flows.
+5. Click on **Power Apps** and you will see a list of all apps in all environments without having to visit each environment. The Flows navigation link does the same      thing for Microsoft Power Automate flows.
 6. Click on the Device Ordering App in the list to open the app details.
 
     ![](images/L02-38.png)
@@ -236,7 +236,7 @@ Now in this exercise, you will explore the following key components
 
     ![](images/L02-39.png)
     
-8. In the **Audit** tab you can see the Business Justification provided by the app maker using the Developer Compliance Center app. In the bottom part is where you as an admin can provide your risk assessment. You can also tag the app to show in the App Catalog and make it featured. You can customize the CoE entities to add     additional fields here if needed.
+8. In the **Audit** tab you can see the Business Justification provided by the app maker using the Developer Compliance Center app. In the bottom part is where you as    an admin can provide your risk assessment. You can also tag the app to show in the App Catalog and make it featured. You can customize the CoE entities to add          additional fields here if needed.
 
     ![](images/L02-40.png)
     
@@ -320,13 +320,17 @@ Now in this exercise, you will explore the following key components
      
 21. The report should load.
 22. Follow the steps below to enable map and filled map visuals:
+    
     a) Click **File** and select **Options and settings | Options**.
 
     ![](images/L02-55.png)
     
     b) Select **Security** form the left.
+    
     c) Scroll down to the **Map and Filled Map visuals** section.
+    
     d) Check the Use **Map and Filled Map visuals** checkbox.
+    
     e) Click **Okay** to close the Options dialog.
     
     ![](images/L02-56.png)
