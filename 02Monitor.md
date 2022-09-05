@@ -357,3 +357,101 @@ Now in this exercise, you will explore the following key components
 31. Click **Publish**.
 32. Save the report if prompted.
 33. Select the workspace you created and click **Select**.
+
+     ![](images/L02-62.png)
+     
+34. Wait for the publishing to complete and click **Got it**.
+
+     ![](images/L02-63.png)
+     
+35. Navigate to Power BI. Click on **Workspaces** and **CoE Workspace**.
+36. Select the **Content** tab and click to open the report.
+
+     ![](images/L02-64.png)
+     
+37. Select the Environments page. Use the date slider to ensure the date range includes the last month.
+
+     ![](images/L02-65.png)
+     
+38. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
+
+
+## Exercise 4: Perform a risk assessment of overshared resources
+
+### Scenario
+
+We were going to perform a risk assessment to look for apps that have been over shared in your tenant. 
+To accomplish this, you are going to use the Power BI report that you just published to look for apps that 
+are over shared.
+
+### Task 1: Locate Overshared Apps
+
+1. Navigate to the Power BI report you just published
+2. Click on the **Apps** page in the report 
+3. Click on the Show navigation button and select **Apps Risk Assessment**.
+
+    ![](images/L02-66.png)
+    
+4. The list of apps you'll see now is the ones that qualify for the default criteria. We want to focus on the ones that have been shared with the entire organization      and validate that they are appropriate.
+5. In the filter panel, select True in the Shared with Everyone section.
+
+    ![](images/L02-67.png)
+    
+6. The filter will take place immediately and you will see a small list of apps that have been shared with 
+   everyone. In many cases a quick evaluation of the name of the app would indicate whether it was 
+   appropriate but it also allows you to drill down into more details by hovering your mouse pointer 
+   over the name of the app. You might also use the owner name to contact the person who made the 
+   app to get more details to determine if it was appropriate to share with everyone.
+   
+   
+## Exercise 5: How much is a connector used in your organization
+
+### Scenario
+
+Using the Power BI report, you can easily see what apps and flows are using a connector. In this exercise you will find out who is using the SharePoint connector.
+
+### Task 1: Locate resources that use the SharePoint connector
+
+1. Navigate to the Power BI report you just published
+2. Select the App Connections page in the report 
+3. In the filter panel, in the Connector section search for SharePoint and select it.
+
+    ![](images/L02-68.png)
+    
+4. The page will now filter on makers, flows and apps that use SharePoint.
+5. Using this you could evaluate things like impact of changing DLP policies or other governance or training that might be needed related to a connector.
+
+
+## Exercise 6: Review tenant audit logs (Optional if you have time)
+
+### Scenario
+
+All other auditing of Power Apps and Power Automate flows (other than CDS data modification) are 
+viewed through the Office 365 Security and Compliance site.
+
+Prior to use, this must be enabled by a global tenant administrator using these instructions. In the tenant 
+you are using we have already completed that for you as well as granting you permission to view the 
+audit log data for the tenant. That was done using the PowerShell command Add-RoleGroupMember 
+“Compliance Management” -Member your user.
+
+In this exercise, you will be using the log search and alert tools to work with the audit data.
+
+### Task 1: Review audit logging in the environment
+
+1. Navigate to https://Protection.office.com 
+2. Expand **Search**. 
+3. Select **Audit log search**. 
+
+   ![](images/L02-69.png)
+   
+4. Click **Search** using the default search criteria.
+
+    ![](images/L02-70.png)
+    
+5. Review the items displayed; drill into a few of them to see the type of data available.
+6. Click **Export Results**. You can download the data if you like. Using export, you can open the data in other tools for analysis.
+
+    ![](images/L02-71.png)
+    
+7. Click **Audit search** from. 
+8. Click on the **Activities** dropdown.
