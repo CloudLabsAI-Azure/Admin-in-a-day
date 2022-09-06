@@ -44,7 +44,7 @@ Platform admin center.
      
 ### Task 2: Explore the Power Apps analytics
 
-1. Navigate to **Power Platform admin center**.
+1. Navigate to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 2. Expand **Power Apps**.
 3. Review the visuals in all tabs.
 
@@ -70,7 +70,7 @@ Platform admin center.
     
 ### Task 3: Explore the Capacity analytics
 
-1. Navigate to **Power Platform admin center**.
+1. Navigate to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 2. Expand **Resources** and select **Capacity**.
 
     ![](images/L02-10.png)
@@ -126,7 +126,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 ### Task 1: Review audit logging in the environment
 
-1. Navigate to the **Power Apps maker portal** and select the **My Sandbox** environment.
+1. Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and select the **My Sandbox** environment.
 2. Select Solutions and click to open the **Fabrikam Project Management** solution.
 
     ![](images/L02-21.png)
@@ -153,7 +153,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
     
 11. Select **All** from the left navigation of the solution.
 12. Click **Publish all customizations** and wait for the publishing to complete.
-13. Navigate to **Power Platform admin center** and select **Environments**.
+13. Navigate to [Power Platform admin center](https://admin.powerplatform.microsoft.com) and select **Environments**.
 14. Select the **My Sandbox** environment and click **Settings**.
 
     ![](images/L02-26.png)
@@ -168,7 +168,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
     
 ### Task 2: Test auditing
 
-1. Navigate to the **Power Apps maker portal** and select the **My Sandbox** environment.
+1. Navigate to the [Power Apps maker portal](https://make.powerapps.com/) and select the **My Sandbox** environment.
 2. Select **Apps** and click to launch the **Project Admin** application.
 
     ![](images/L02-29.png)
@@ -214,7 +214,7 @@ Now in this exercise, you will explore the following key components
 
 ### Task 1: Explore the Power Platform Admin View app
 
-1. Navigate to **Power Apps maker portal**.
+1. Navigate to [Power Apps maker portal](https://make.powerapps.com/).
 2. Select **Power Platform CoE** environment in the environment selector.
 
     ![](images/L02-35.png)
@@ -265,7 +265,7 @@ Now in this exercise, you will explore the following key components
 
 ### Task 2: Power BI Dashboard
 
-1. Navigate in your browser to Power BI Power BI and **Sign in** with your lab credentials.
+1. Navigate in your browser to Power BI [Power BI](https://app.powerbi.com) and **Sign in** with your lab credentials.
 2. When you see the You have an account with us, click Sign In again and then click Start. 
 
     ![](images/L02-45.png)
@@ -301,7 +301,7 @@ Now in this exercise, you will explore the following key components
 
      ![](images/L02-50.png)
      
-16. Navigate to Power Platform Admin Center Power Platform Admin Center and select **Environments**.
+16. Navigate to [Power Platform admin center](https://admin.powerplatform.microsoft.com) and select **Environments**.
 17. Locate the **Power Platform COE** environment and click on the name to show the details page.
 
      ![](images/L02-51.png)
@@ -368,7 +368,7 @@ Now in this exercise, you will explore the following key components
 
      ![](images/L02-63.png)
      
-35. Navigate to Power BI. Click on **Workspaces** and **CoE Workspace**.
+35. Navigate to [Power BI](https://app.powerbi.com). Click on **Workspaces** and **CoE Workspace**.
 36. Select the **Content** tab and click to open the report.
 
      ![](images/L02-64.png)
@@ -485,7 +485,7 @@ and looks for newly created canvas apps, flows and connectors and sends you an e
 
     ![](images/L02-73.png)
     
-3. **Paste the URL and press enter**. https://us.flow.microsoft.com/enus/galleries/public/templates/0b2ffb0174724ad6b4681728c0f53062/get-list-of-new-powerappsflows-and-connectors/
+3. **Paste the URL and press enter**. https://us.flow.microsoft.com/enus/galleries/public/templates/0b2ffb0174724ad6b4681728c0f53062/get-list-of-new-powerappsflows-and-connectors/
 4. Click **Sign in**.
 
     ![](images/L02-74.png)
