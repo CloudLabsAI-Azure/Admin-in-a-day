@@ -21,7 +21,7 @@ Platform admin center.
 
 ### Task 1: Explore the Power Automate analytics
 
-1. Navigate to Power Platform admin center.
+1. Navigate to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 2. Expand **Analytics**.
 3. Select **Power Automate**. Select change filters and change to the Power Platform COE environment.
 
