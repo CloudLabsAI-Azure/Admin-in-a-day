@@ -47,7 +47,7 @@ In this exercise, you will be creating an environment request form using Microso
 
 ### Task 1: Create Microsoft Form
 
-1. While logged in as the lab admin user navigate to Microsoft Forms and close the welcome screen.
+1. While logged in as the lab admin user navigate to [Microsoft Forms](https://forms.office.com) and close the welcome screen.
 
      ![](images/L03-1.png)
      
@@ -100,18 +100,18 @@ them from the user’s Office 365 profile information using the Office 365 conne
 
 ### Task 1: Delete your sandbox environment
 
-1. While logged in as the lab admin user navigate to the Power Platform admin center.
+1. While logged in as the lab admin user navigate to the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 2. Locate and select your sandbox environment that you created in module one named **My Sandbox (Your initials)** in the list of environments.
 3. Click the Delete button and confirm the deletion by typing the environment name.
 
 ### Task 2: Create New Environment Approval Flow
 
-1. Log in with your **Lab Admin** user, navigate to Power Automate, and login with your admin user.
+1. Log in with your **Lab Admin** user, navigate to [Power Automate](https://powerautomate.microsoft.com) , and login with your admin user.
 2. Confirm that your environment is set to **Power Platform CoE**. 
 
-Note: This environment is where our CoE starter kit is installed and is intended to be our dedicated admin environment. Even if you don’t use the starter kit, having a dedicated admin environment can be helpful.
-
-    ![](images/L03-10.png)
+   >Note: This environment is where our CoE starter kit is installed and is intended to be our dedicated admin environment. Even if you don’t use the starter kit,               having a dedicated admin environment can be helpful.
+   
+   ![](images/L03-10.png)
 
 3. Select **My flows**. 
 4. Click **+ New flow** and select **Automated clod flow**. 
@@ -265,8 +265,8 @@ Note: This environment is where our CoE starter kit is installed and is intended
      ![](images/L03-40.png)
      
 3. Paste the link in the browser and navigate to it.
-4. The form should load. Provide an Environment Name of **Central Apps Test**, Business Justification,and the connector Microsoft Dataverse. Note: For the purposes of    this course, we will be using this environment we created here later in another lab to deploy the Device Ordering solution using  Azure Dev Ops, for that lab it        will serve as the Test environment that is why we are suggesting naming it Central Apps Test. In real word use, most likely it would be a team/project development 
-   environment that would be requested using a form like this.
+4. The form should load. Provide an Environment Name of **Central Apps Test**, Business Justification,and the connector Microsoft Dataverse. 
+Note: For the purposes of this course, we will be using this environment we created here later in another lab to deploy the Device Ordering solution using  Azure Dev         Ops, for that lab it will serve as the Test environment that is why we are suggesting naming it Central Apps Test. In real word use, most likely it would be a         team/project development environment that would be requested using a form like this.
 5. Click **Submit**.
 
      ![](images/L03-41.png)
@@ -298,7 +298,7 @@ Note: This environment is where our CoE starter kit is installed and is intended
 
      ![](images/L03-47.png)
      
-15. Navigate to Power Platform admin center and select Environments. The new environment should be listed there.
+15. Navigate to [Power Platform admin center](https://admin.powerplatform.microsoft.com) and select Environments. The new environment should be listed there.
 
      ![](images/L03-48.png)
      
@@ -354,7 +354,7 @@ In this task you will be performing the role of the developer and completing the
 
      ![](images/L03-51.png)
      
-2. Navigate to the maker portal.
+2. Navigate to the [Power Apps maker portal](https://make.powerapps.com).
 3. Select the **User and Team Productivity** environment.
 4. Select **Apps**.
 5. Select the **Lab Admin** # application where # is your user number.
@@ -430,7 +430,7 @@ company.
 
 ### Task 1: Create Office 365 Group
 
-1. Navigate to Azure portal.
+1. Navigate to [Azure portal](https://portal.azure.com).
 2. Select **Azure Active Directory**.
 
     ![](images/L03-60.png)
@@ -459,7 +459,7 @@ company.
 
 ### Task 2: Import Flow
 
-1. Navigate to Power Automate 
+1. Navigate to [Power Automate](https://make.powerautomate.com) 
 2. Make sure **Power Platform COE** environment is selected. Note: While we are using this here, in your own tenant you might do this in an admin focused environment      or where you have installed the CoE Starter Kit.
 
     ![](images/L03-66.png) 
@@ -582,7 +582,7 @@ company.
 
       ![](images/L03-88.png)
       
-26. Go back to Azure portal 
+26. Go back to [Azure portal](https://portal.azure.com) 
 27. Select **Azure Active Directory**. 
 28. Select **Groups** and open the group you created.
 
