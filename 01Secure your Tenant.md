@@ -231,7 +231,7 @@ ii.	Conditional Access on individual apps in Power Apps
     Here’s an example using the values from the screenshots above.
  
        ```
-       Set-AdminPowerAppConditionalAccessAuthenticationContextIds –EnvironmentName Default-4b884655-fb76-4683-81e5-d247b1a27310 -AppName bf2b251d-7b04-464d-80f5-8840360f2e27 -AuthenticationContextIds c1
+       Set-AdminPowerAppConditionalAccessAuthenticationContextIds –EnvironmentName Default-4b884655-fb76-4683-81e5-d247b1a27310 -AppName bf2b251d-7b04-464d-80f5-              8840360f2e27 -AuthenticationContextIds c1
        ```
       
       ![](images/L01-37.png)
@@ -240,7 +240,8 @@ ii.	Conditional Access on individual apps in Power Apps
 
 9	Open a new InPrivate browser session and attempt to launch the app (this can be done from https://make.powerapps.com or directly from the app link). 
 
-     ![](images/L01-38.png)
+      
+      ![](images/L01-38.png)
   
 10.	Follow the Multifactor authentication dialog.
   
