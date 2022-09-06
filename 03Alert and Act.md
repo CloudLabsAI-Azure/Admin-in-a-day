@@ -54,10 +54,10 @@ In this exercise, you will be creating an environment request form using Microso
 2. Click **New Form**.
 
      ![](images/L03-2.png)
-     
-  Note: Create the Form below, if you need steps, continue the steps here. If you do not need each step, continue to the next exercise.
-
-     ![](images/L03-3.png)
+    
+    >Note: Create the Form below, if you need steps, continue the steps here. If you do not need each step, continue to the next exercise.
+    
+    ![](images/L03-3.png)
       
 3. Enter **New Environment Approval Request** for title, enter **New environment request** for description, and click **Add new**.
 
