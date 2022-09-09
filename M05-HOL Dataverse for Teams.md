@@ -1,4 +1,6 @@
-# Power Apps in Teams
+# Admin in a day
+
+## M05-HOL Power Apps in Teams
 
 ## Teams setup
 
