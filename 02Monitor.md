@@ -1,4 +1,6 @@
-# Lab 02-Reporting and Telemetry
+# Admin in a day
+
+## M02-HOL Reporting and Telemetry
 
 ### Lab Scenario
 
