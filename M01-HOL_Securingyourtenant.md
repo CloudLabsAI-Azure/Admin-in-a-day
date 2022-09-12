@@ -445,11 +445,11 @@ impacts your working flow.
 
 1. Navigate to [Power Platform admin center](https://admin.powerplatform.microsoft.com) .                   
 
-2. Select **Data policies** and click **+ New Policy**.        
+1. Select **Data policies** and click **+ New Policy**.        
 
     ![](images/M01/datapolicy.png)
 
-3. Enter **My Sandbox (Your initials)** for **Name** and click **Next**.                                               
+1. Enter **My Sandbox (Your initials)** for **Name** and click **Next**.                                               
 
 
 1. Search for Microsoft Dataverse, select **Microsoft Dataverse**, and click **Move to Business**. Choose  carefully, you may have to expand the Name column to            differentiate between connectors in your search results.     
