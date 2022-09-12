@@ -75,6 +75,7 @@ looking at the following:
 
 7. You should now see **Production** and **Default** environments.
   
+
 8. Click on the **Environments** column, select **Sort order** by **Ascending**, and click **Apply**.
 
 
