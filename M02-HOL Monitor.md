@@ -111,9 +111,10 @@ Platform admin center.
     ![](images/M02/image17.png)
     
 1. Review the visuals.
+
 1. Click **Change filters**.
 
-   ![](images/L02-18.png)
+    ![](images/M02/image18.png)
    
 1. Change the date range to between one-week ago and today, and then click **Apply**.
 
@@ -290,7 +291,7 @@ Now in this exercise, you will explore the following key components
 
      ![](images/M02/image47.png)
      
-9. Launch Power BI Desktop on your local computer, if you don’t have it installed you can install it from Downloads | Microsoft Power BI
+9. Launch Power BI Desktop on your local computer, if you don’t have it installed you can install it from [Downloads | Microsoft Power BI](https://powerbi.microsoft.com/en-us/downloads/) 
 10. Close the popup window.
 11. Click Sign-in and provide your lab admin account credentials.
 12. Once signed in, click **File**, **open report**, and select **Browse Reports**.
@@ -392,7 +393,7 @@ are over shared.
 
 ### Task 1: Locate Overshared Apps
 
-1. Navigate to the Power BI report you just published
+1. Navigate to the [Power BI report](https://protection.office.com/) you just published
 2. Click on the **Apps** page in the report 
 3. Click on the Show navigation button and select **Apps Risk Assessment**.
 
@@ -418,9 +419,9 @@ Using the Power BI report, you can easily see what apps and flows are using a co
 
 ### Task 1: Locate resources that use the SharePoint connector
 
-1. Navigate to the Power BI report you just published
-2. Select the App Connections page in the report 
-3. In the filter panel, in the Connector section search for SharePoint and select it.
+1. Navigate to the [ Power BI report](https://protection.office.com/) you just published
+2. Select the App **Connections page** in the report 
+3. In the filter panel, in the **Connector** section search for SharePoint and select it.
 
     ![](images/M02/image67.png)
     
