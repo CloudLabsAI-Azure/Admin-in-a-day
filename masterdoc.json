@@ -1,0 +1,34 @@
+
+
+[
+  {
+    "Name": "Admin in a Day ( Power Platform Governance workshop )",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Admin-in-a-day/main/M01-HOL Securing your tenant.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Admin-in-a-day/main/M02-HOL Monitor.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Admin-in-a-day/main/M03-HOL Alert and Act.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Admin-in-a-day/main/M04-HOL Deploy.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Admin-in-a-day/main/M05-Optional-HOL Dataverse for Teams.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Admin-in-a-day/main/M05-HOL Dataverse for Teams.md",
+        "Order": 6
+      }
+    ]
+  }
+]
