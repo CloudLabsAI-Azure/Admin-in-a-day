@@ -411,7 +411,8 @@ viewing the impact of adding a DLP policy.
   
 16. Click to open the flow. 
 
-   ![](images/M01/weather.png)
+   
+  ![](images/M01/weather.png)
 
 
 17. Click **Run**.          
@@ -509,7 +510,7 @@ AD Security group and assign the security role you just built.
 
 ### Task 1: Import project management solution
 
-1. Navigate toand select The My Sandbox environment you created.
+1. Navigate to and select The My Sandbox environment you created.
 
 
   ![](images/M01/image37.png)
@@ -705,12 +706,7 @@ AD Security group and assign the security role you just built.
 6. Close the share pane.
 
 
-DISCLAIMER
 
-This demo/lab contains only a portion of new features and enhancements
-in Microsoft Power Apps. Some of the features might change in future
-releases of the product. In this demo/lab, you will learn about some,
-but not all, new features.
 
 
 
