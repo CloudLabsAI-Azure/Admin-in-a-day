@@ -63,12 +63,10 @@ looking at the following:
 
 4. You can filter and order environments. Click on the **Type** column, select filter by **Production**, and click **Apply**.           
 
-
      ![](images/M01/image2.png)
 
 
 5. You should now see only the **Production** type environments.
-
 
      ![](images/M01/image3.png)
 
