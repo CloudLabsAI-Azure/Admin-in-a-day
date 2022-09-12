@@ -133,8 +133,7 @@ looking at the following:
   ![](images/M01/image12.png)
   
 
-21.Go back to the previous page and click on **Flows** in the **Resources** section and you will notice a similar pattern to apps.                                           
-
+21. Go back to the previous page and click on **Flows** in the **Resources** section and you will notice a similar pattern to apps.                                     
   
   ![](images/M01/image13.png)
   
