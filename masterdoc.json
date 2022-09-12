@@ -6,27 +6,27 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Admin-in-a-day/main/M01-HOL Securing your tenant.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M01-HOL%20Securing%20your%20tenant.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Admin-in-a-day/main/M02-HOL Monitor.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M02-HOL%20Monitor.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Admin-in-a-day/main/M03-HOL Alert and Act.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M03-HOL%20Alert%20and%20Act.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Admin-in-a-day/main/M04-HOL Deploy.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M04-HOL%20Deploy.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Admin-in-a-day/main/M05-Optional-HOL Dataverse for Teams.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M05-Optional-HOL%20Dataverse%20for%20Teams.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Admin-in-a-day/main/M05-HOL Dataverse for Teams.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M05-HOL%20Dataverse%20for%20Teams.md",
         "Order": 6
       }
     ]
