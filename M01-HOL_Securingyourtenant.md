@@ -517,30 +517,34 @@ AD Security group and assign the security role you just built.
 
 ### Task 1: Import project management solution
 
-1. Navigate to and select The My Sandbox environment you created.
+1. Navigate to [Power Apps maker portal](https://make.powerapps.com) and select The My Sandbox environment you created.
 
 
   ![](images/M01/image37.png)
   
 
-2. Select **Solutions** and click **Import**.
+2. Select **Solutions (1)** and click **Import Solutions (2)**.
 
   
-  ![](images/M01/image38.png)
+  ![](images/M01/solution.png)
  
  
 3. Click **Browse**.                                           
 
-4.  Select the **Fabrikam Project Management** solution located in the lab resources folder and click **Open**.                                                   
+   ![](images/M01/browse.png)
+
+
+4.  Navigate to this path `C:\LabFiles\M01-HOL Securing your tenant\Resources` in file explorer.Select the **Fabrikam Project Management** solution located in the lab     resources folder and click **Open**.                                                   
 
 5. Click **Next**.                                             
-
 
  
   ![](images/M01/image39.png)
   
 
 6. Click **Import** and wait for the import to complete. You should get a notification when the import succeeds.                                                   
+
+    ![](images/M01/import.png)
 
 7. Click **Publish All Customizations** and wait for the publishing to complete.                                       
 
@@ -556,7 +560,7 @@ AD Security group and assign the security role you just built.
 
 9. The solution should have six components.                   
 
-10. Click to open the **Import Sample Data -- Projects** flow. You are going to run this flow to insert some sample project data for the app to use.               
+10. Click to open the **Import Sample Data - Projects** flow. You are going to run this flow to insert some sample project data for the app to use.               
 
 
   
@@ -577,39 +581,45 @@ AD Security group and assign the security role you just built.
  
 13. Click to expand the **Parse JSON** step.                 
 
+   ![](images/M01/parse.png)
+
 14. Examine the sample records the flow will create.         
+
+   ![](images/M01/json.png)
 
 15. Click **Save** and wait for the flow to be saved.        
 
-16. Go back to the details view of the flow by clicking on the  button.                                            
+16. Go back to the details view of the flow by clicking on the **<-** button.                                            
+
+   ![](images/M01/back.png)
 
 17. Open the flow again.                                     
 
 18. Turn on the flow if it is off.                           
 
-19. Click **Run** to run the flow.                           
+19. Click **Run** to run the flow and  click **Run flow**.                                      
 
-20. Click **Run flow**.                                      
-
-21. Click **Done** and wait for the run to complete.         
+   ![](images/M01/runflow.png)
 
 
- 
+20. Click **Done** and wait for the run to complete.         
+
+
   ![](images/M01/image45.png)
   
   
-22. Click on the browser back button.                          
+21. Click on the browser back button.                          
 
-23. Go back to the maker home page by clicking on the **\<-** back button.                                               
+22. Go back to the maker home page by clicking on the **\<-** back button.                                               
 
-24. Select **Apps** and click to open the **Project List** canvas application.                                        
+23. Select **Apps** and click to open the **Project List** canvas application.                                        
 
 
   
   ![](images/M01/image46.png)
 
 
-25. The application should load, and you should see the sample project records the flow created. Click +.                 
+24. The application should load, and you should see the sample project records the flow created. Click +.                 
 
 
  
@@ -617,35 +627,37 @@ AD Security group and assign the security role you just built.
   
 
 
-26. Enter **Test Project** for **Title**, select **Due date** and click **Submit**.
+25. Enter **Test Project** for **Title**, select **Due date** and click **Submit**.
 
   
   ![](images/M01/image48.png)
   
 
-27. The application should create the new record and take you back to the list of projects.
+26. The application should create the new record and take you back to the list of projects.
 
  
   ![](images/M01/image49.png)
   
 
-28. Close the Project List application browser window or tab.
+27. Close the Project List application browser window or tab.
+
 
 ### Task 2: Create a security role
 
 
-1.  Navigate to Power Apps maker portal and make sure you have your sandbox environment selected.                          
+1. Navigate to [Power Apps maker portal](https://make.powerapps.com) and make sure you have your sandbox environment selected.                          
 
 2. Select **Solutions** and click to open the **Fabrikam Project Management** solution.                                
 
-3.  Click **+ New** and select **Security** | **Security role**.                                                     
-
+3. Click **+ New** and select **Security** | **Security role**.                                                     
 
   
-  ![](images/M01/image50.png)
+   ![](images/M01/image50.png)
  
 
-4. Enter **Project Manager** for **Role Nam**e and click **Save**.                                                   
+4. Enter **Project Manager** for Role Name and click **Save**.                                                   
+
+   ![](images/M01/pm.png)
 
 5. Select the **Custom Entities** tab.                         
 
@@ -679,6 +691,8 @@ AD Security group and assign the security role you just built.
 10. Click **Save and Close**.                                  
 
 11. Click **Done**.                                            
+
+   ![](images/M01/done.png)
 
 12. Click **Publish all customizations** and wait for the publishing to complete.                                      
 
