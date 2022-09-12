@@ -135,7 +135,7 @@ looking at the following:
 
 21. Go back to the previous page and click on **Flows** in the **Resources** section and you will notice a similar pattern to apps.                                     
   
-  ![](images/M01/image13.png)
+   ![](images/M01/image13.png)
   
 
 22. From here you can quickly turn off a flow that is active, as well as delete it if necessary.
@@ -150,10 +150,10 @@ looking at the following:
   ![](images/M01/image15.png)
   
 
-24. From here you can see who created it, who the owner is as well as what connections it is using. You can also view and share the flow with others from here.             We will discuss that more later in the course.                             
-
-
-  ![](images/M01/image16.png)
+24. From here you can see who created it, who the owner is as well as what connections it is using. You can also view and share the flow with others from here.We will     discuss that more later in the course.      
+  
+   
+    ![](images/M01/image16.png)
   
 
 ### Task 2: Review existing Data policies
