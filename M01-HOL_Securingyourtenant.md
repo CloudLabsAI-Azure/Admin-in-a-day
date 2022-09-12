@@ -443,51 +443,58 @@ In this task you will create an environment specific DLP and see how it
 impacts your working flow.
 
 
-1. Navigate to Power Platform admin center .                   
+1. Navigate to [Power Platform admin center](https://admin.powerplatform.microsoft.com) .                   
 
 2. Select **Data policies** and click **+ New Policy**.        
 
+    ![](images/M01/datapolicy.png)
+
 3. Enter **My Sandbox (Your initials)** for **Name** and click **Next**.                                               
 
-4. Select your environment and **Add to policy**.              
 
-
-  ![](images/M01/image32.png)
- 
- 
-5. Click **Next**.                                             
-
-6. Search for Microsoft Dataverse, select **Microsoft Dataverse**, and click **Move to Business**. Choose  carefully, you may have to expand the Name column to            differentiate between connectors in your search results.     
+1. Search for Microsoft Dataverse, select **Microsoft Dataverse**, and click **Move to Business**. Choose  carefully, you may have to expand the Name column to            differentiate between connectors in your search results.     
 
   
   ![](images/M01/image33.png)
   
   
-7. Search for SharePoint, select **SharePoint,** and click **Move to Business**.                                        
+1. Search for SharePoint, select **SharePoint,** and click **Move to Business**.                                        
 
-8. Search for Outlook, select **Office 365 Outlook,** and click **Move to Business**. 
+1. Search for Outlook, select **Office 365 Outlook,** and click **Move to Business**. 
 
-9. Select the **Business** tab.
+1. Select the **Business** tab.
 
-10.  You should now have three connectors moved to Business. Click **Next**.                                              
+1.  You should now have three connectors moved to Business. Click **Next**.                                              
 
 
   
   ![](images/M01/image34.png)
+
+
+
+1. Select **Add multiple environmnet (2)** in the **scope (1)** section              
+
+
+  ![](images/M01/scope.png)
  
+1. Select your environmnet and click on **Add Policy**
 
-11. Click **Create policy**.                                   
+  ![](images/M01/addpolicy.png)
 
-12. Navigate to Power Automate and make sure you in the sandbox environment.                                         
+1. Click **Next**.                                             
 
-13. Select **My flows**.                                       
+1. Review the policy and Click **Create policy**.                                   
 
-14. The flow should now be suspended because of the DLP you created. Click to open the flow. This can take up to 5 minutes, wait few minutes and then click refresh.                                                   
+1. Navigate to [Power Automate](https://make.powerautomate.com) and make sure you in the sandbox environment.                                         
+
+1. Select **My flows**.                                       
+
+1. The flow should now be suspended because of the DLP you created. Click to open the flow. This can take up to 5 minutes, wait few minutes and then click refresh.                                                   
 
   ![](images/M01/image35.png)
   
 
- 15. You should not be able to run the flow.
+ 1. You should not be able to run the flow.
 
   
   ![](images/M01/image36.png)
