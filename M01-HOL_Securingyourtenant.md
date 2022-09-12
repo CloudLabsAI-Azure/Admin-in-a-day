@@ -52,9 +52,9 @@ looking at the following:
 ### Task 1: Review existing environments
 
 
-1. Logged in with the **Lab Admin account** in an in-private browser session navigate to https://aka.ms/ppac and select **Environments**.                                 
+1. Logged in with the **Lab Admin account** in an in-private browser session navigate to https://aka.ms/ppac .                                 
  
-2. Review the list of environments. These are the environments that are available for you to manage.                         
+2. select **Environments** and review the list of environments. These are the environments that are available for you to manage.                         
 
      ![](images/M01/image1.png)
   
