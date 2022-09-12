@@ -58,23 +58,19 @@ looking at the following:
 
      ![](images/M01/image1.png)
   
-
 3. Notice the **type column**, you can see Fabrikam is already using several types of environments.                  
 
-4. You can filter and order environments. Click on the **Type** column, select filter by **Production**, and click **Apply**.           
+4. You can filter and order environments.Click on the **Type** column, select filter by **Production**,and click **Apply**.           
 
      ![](images/M01/image2.png)
-
 
 5. You should now see only the **Production** type environments.
 
      ![](images/M01/image3.png)
 
-
 6. Click on the **Type** column again and filter by **Default** and **Production**. 
 
-
-  ![](images/M01/image4.png)
+     ![](images/M01/image4.png)
 
 
 7. You should now see **Production** and **Default** environments.
