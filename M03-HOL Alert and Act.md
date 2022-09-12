@@ -14,10 +14,15 @@ Using the Power Platform administrative connectors and the built-in approval cap
 Automate you will automate the processing of the requests.
 
 The following is an outline of the process you will be implementing:
+
 • A user submits request via the form including justification for the environment
+
 • Form submission triggers flow to run
+
 • Flow uses the approval connector to ask admin team for approval
+
 • If approved, the environment and Dataverse database are created
+
 • User is notified of the outcome; approved or rejected.
 
 This process could easily be expanded to request approval from the user’s manager as well as the request 
@@ -256,7 +261,7 @@ them from the user’s Office 365 profile information using the Office 365 conne
      
 ### Task 4: Test the Flow
 
-1. Navigate to Microsoft Forms and click to open the form you created.
+1. Navigate to [Microsoft Forms](https://forms.office.com) and click to open the form you created.
 
       ![](images/M03/image39.png)
       
@@ -265,8 +270,11 @@ them from the user’s Office 365 profile information using the Office 365 conne
      ![](images/M03/image40.png)
      
 3. Paste the link in the browser and navigate to it.
+
 4. The form should load. Provide an Environment Name of **Central Apps Test**, Business Justification,and the connector Microsoft Dataverse. 
+
 Note: For the purposes of this course, we will be using this environment we created here later in another lab to deploy the Device Ordering solution using  Azure Dev         Ops, for that lab it will serve as the Test environment that is why we are suggesting naming it Central Apps Test. In real word use, most likely it would be a         team/project development environment that would be requested using a form like this.
+
 5. Click **Submit**.
 
      ![](images/M03/image41.png)
@@ -283,7 +291,8 @@ Note: For the purposes of this course, we will be using this environment we crea
 
      ![](images/M03/image44.png)
      
-9. Start a new browser tab and navigate to Outlook. 
+9. Start a new browser tab and navigate to [Outlook](https://outlook.office365.com). 
+
 10. You should have approval request email, click to open it.
 
      ![](images/M03/image45.png)
@@ -314,7 +323,7 @@ The CoE starter kit includes a sample implementation of an environment managemen
 
    ![](images/M03/image50.png)
    
-You can learn more about the details in How to use the Environment Management components - Power Platform | Microsoft Docs
+You can learn more about the details in [How to use the Environment Management components - Power Platform | Microsoft Docs](https://docs.microsoft.com/en-us/power-platform/guidance/coe/env-mgmt)
 
 Using the starter kit process can save you time, but as you saw in Exercise 1 and 2 the platform also supports you building your own custom processes. 
 
@@ -548,7 +557,7 @@ company.
 7. Go back to the app maker main page by clicking on the ** Back** button.
 8. Select **Solutions**. 
 9. Click **Publish all customizations** and wait for the publishing to complete.
-10. Navigate to Power Automate and select the **Power Platform CoE environment**.
+10. Navigate to [Power Automate](https://powerautomate.microsoft.com) and select the **Power Platform CoE environment**.
 11. Select **My Flows**. 
 12. Locate the flow you imported and click **Edit**.
 
@@ -592,7 +601,7 @@ company.
 
       ![](images/M03/image90.png)
       
-30. Navigate to Outlook . 
+30. Navigate to [Outlook](https://outlook.office365.com) . 
 31. You should get a welcome email. Open the email. If you don’t get an email, it is probably because you didn’t create an application in the past 24 hours, create a       new Power App and run the flow again.
  
       ![](images/M03/image91.png)
