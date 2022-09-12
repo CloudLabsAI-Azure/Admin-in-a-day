@@ -52,7 +52,7 @@ looking at the following:
 ### Task 1: Review existing environments
 
 
-1. Logged in with the **Lab Admin account** in an in-private browser session navigate https://aka.ms/ppac and select **Environments**.                                 
+1. Logged in with the **Lab Admin account** in an in-private browser session navigate to https://aka.ms/ppac and select **Environments**.                                 
  
 2. Review the list of environments. These are the environments that are available for you to manage.                         
 
@@ -61,7 +61,7 @@ looking at the following:
 
 3. Notice the **type column**, you can see Fabrikam is already using several types of environments.                  
 
-3. You can filter and order environments. Click on the **Type** column, select filter by **Production**, and click **Apply**.           
+1. You can filter and order environments. Click on the **Type** column, select filter by **Production**, and click **Apply**.           
 
 
      ![](images/M01/image2.png)
