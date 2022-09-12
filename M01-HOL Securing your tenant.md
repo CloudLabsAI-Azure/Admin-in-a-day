@@ -170,11 +170,12 @@ looking at the following:
 2. Expand **Policies** and select **Data policies** on the left navigation.
 
 3. Review the list of existing policies.
-    -- As the login you are using is not a tenant admin but only an environment admin, you will see policies that impact environments of which you are a member.
     
-    -- As an environment admin or regular environment user, you will also be able to see any tenant-wide DLP policies applied to your environment. However, you would          not be able to edit those tenant-side DLP policies.
+    - As the login you are using is not a tenant admin but only an environment admin, you will see policies that impact environments of which you are a member.
     
-    -- As a Global Admin, Admin, Power Platform Service Admin  or D365 Service Admin in your tenant, you will see all policies that exist in your tenant, even those          that you did not create.
+    - As an environment admin or regular environment user, you will also be able to see any tenant-wide DLP policies applied to your environment. However, you would          not be able to edit those tenant-side DLP policies.
+    
+    - As a Global Admin, Admin, Power Platform Service Admin  or D365 Service Admin in your tenant, you will see all policies that exist in your tenant, even those          that you did not create.
 
 4. Notice the Contoso Global DLP policy exists that is intended to span all environments (except selected ones) and represents the global DLP policy. For this lab        environment Contoso Global DLP policy has 4 environment selected instead of All except 4.
 
@@ -281,14 +282,14 @@ In this task, you use the information from Task 1's scenario to help you
 propose an environment plan for Fabrikam. To help you build the plan we
 have prepared a worksheet with questions for you to answer.
 
-1. Open **M01 -- HOL Environment Worksheet.docx** from the Resources folder and complete it by answering each of the questions. You should spend no more than 10          minutes on this before proceeding to the next task.
+1. Open **M01 - HOL Environment Worksheet.docx** from the Resources folder and complete it by answering each of the questions. You should spend no more than 10            minutes on this before proceeding to the next task.
 
 ### Task 3: Review the example environment plan and compare to yours
 
 In this task, we have provided you with a completed environment plan.
 Review the answers and compare to the one you built in the prior task.
 
-1.Open the Example Environment Plan document **M01 -- HOL Environment Example.docx** and compare the answers to the one you completed in the previous task.
+1.Open the Example Environment Plan document **M01 - HOL Environment Example.docx** and compare the answers to the one you completed in the previous task.
 
 2.Talk to your trainer about any significant differences that do not make sense to you.
 
@@ -305,14 +306,14 @@ In this task, you use the information from the last exercise's scenario
 to help you propose a DLP plan for Fabrikam. To help you build the plan
 we have prepared a worksheet with questions for you to answer.
 
-1.Open **M01 -- HOL DLP Worksheet.docx** from the Resources folder and complete it by answering each of the questions. You should spend no more than 10 minutes on this   before proceeding to the next task.
+1.Open **M01 - HOL DLP Worksheet.docx** from the Resources folder and complete it by answering each of the questions. You should spend no more than 10 minutes on this   before proceeding to the next task.
 
 ### Task 2: Review the example DLP plan and compare to yours
 
 In this task, we have provided you with a completed environment plan.
 Review the answers and compare to the one you built in the prior task.
 
-1.Open the Example Environment Plan document **M01 -- HOL DLP Example.docx** and compare the answers to the one you completed in the previous task.
+1.Open the Example Environment Plan document **M01 - HOL DLP Example.docx** and compare the answers to the one you completed in the previous task.
 
 2.Talk to your trainer about any significant differences that do not make sense to you.
 
@@ -344,10 +345,10 @@ viewing the impact of adding a DLP policy.
 
 ### Task 2: Create a flow to get the weather
 
-1. Navigate to and select the environment you created.
+1. Navigate to [Power Apps maker portal](https://make.powerapps.com) and select the environment you created.
 
 
-  ![](images/M01/image23.png)
+   ![](images/M01/image23.png)
  
  
 2. Select **Flows** from the left.                      
@@ -385,9 +386,9 @@ viewing the impact of adding a DLP policy.
   ![](images/M01/image27.png)
   
 
-11. Hit the **\[ENTER\]** key**,** enter **Temperature:** and select **Temperature** form the Dynamic content pane.      
+11. Hit the **\[ENTER\]** key, enter **Temperature:** and select **Temperature** form the Dynamic content pane.      
 
-12. Hit the **\[ENTER\]** key**,** enter **Conditions:** and select **Conditions** form the Dynamic content pane.   
+12. Hit the **\[ENTER\]** key, enter **Conditions:** and select **Conditions** form the Dynamic content pane.   
 
 13. You may add other values to the email.                
 
