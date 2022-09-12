@@ -349,6 +349,9 @@ viewing the impact of adding a DLP policy.
  
 2. Select **Flows** from the left.                      
 
+   ![](images/M01/flows.png)
+
+
 3. Click **+ New** and select **Scheduled cloud flow**. 
 
 
@@ -358,13 +361,17 @@ viewing the impact of adding a DLP policy.
 4. Enter **Weather flow** for **Name**, select **Repeat every 1 Day**, and click **Create**.
 
 
-  
   ![](images/M01/image25.png)
  
 
 5. Click **+ New step**.                                       
 
-6. Search msn and select **Get current weatherMSN Weather**. 
+   ![](images/M01/newstep.png)
+
+
+6. Search **msn (1)** and select **Get current weather MSN Weather (2)**. 
+
+    ![](images/M01/msn.png)
 
 7. Provide your **Location**, select your preferred **Units**, and click **+ New step**.                          
 
@@ -372,7 +379,9 @@ viewing the impact of adding a DLP policy.
   ![](images/M01/image26.png)
   
 
-8. Search for send email and select **Send an email (V2) Office 365 Outlook**.                                        
+8. Search for **send email (1)** and select **Send an email (V2) Office 365 Outlook (2)**.                                        
+
+    ![](images/M01/email.png)
 
 9. Provide your email for **To** and enter **Current Weather** for **Subject**.                                 
 
@@ -402,6 +411,9 @@ viewing the impact of adding a DLP policy.
   
 16. Click to open the flow. 
 
+   ![](images/M01/weather.png)
+
+
 17. Click **Run**.          
 
 
@@ -410,13 +422,16 @@ viewing the impact of adding a DLP policy.
 
 18. Click **Run flow**.                                        
 
+  ![](images/M01/run.png)
+
+
 19. Click **Done** and wait for the flow run to complete.Click on the Refresh button to see the update status.                                                    
 
 
   ![](images/M01/image31.png)
 
 
-20. Navigate to **Outlook** .                             
+20. Navigate to **[Outlook](https://outlook.office365.com)** .                             
 
 21. You should get an email with the weather information. 
 
