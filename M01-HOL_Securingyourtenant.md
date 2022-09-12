@@ -445,26 +445,26 @@ impacts your working flow.
 
 1. Navigate to [Power Platform admin center](https://admin.powerplatform.microsoft.com) .                   
 
-1. Select **Data policies** and click **+ New Policy**.        
+2. Select **Data policies** and click **+ New Policy**.        
 
     ![](images/M01/datapolicy.png)
 
-1. Enter **My Sandbox (Your initials)** for **Name** and click **Next**.                                               
+3. Enter **My Sandbox (Your initials)** for **Name** and click **Next**.                                               
 
 
-1. Search for Microsoft Dataverse, select **Microsoft Dataverse**, and click **Move to Business**. Choose  carefully, you may have to expand the Name column to            differentiate between connectors in your search results.     
+4. Search for Microsoft Dataverse, select **Microsoft Dataverse**, and click **Move to Business**. Choose  carefully, you may have to expand the Name column to            differentiate between connectors in your search results.     
 
   
   ![](images/M01/image33.png)
   
   
-1. Search for SharePoint, select **SharePoint,** and click **Move to Business**.                                        
+5. Search for SharePoint, select **SharePoint,** and click **Move to Business**.                                        
 
-1. Search for Outlook, select **Office 365 Outlook,** and click **Move to Business**. 
+6. Search for Outlook, select **Office 365 Outlook,** and click **Move to Business**. 
 
-1. Select the **Business** tab.
+7. Select the **Business** tab.
 
-1.  You should now have three connectors moved to Business. Click **Next**.                                              
+8.  You should now have three connectors moved to Business. Click **Next**.                                              
 
 
   
@@ -472,29 +472,29 @@ impacts your working flow.
 
 
 
-1. Select **Add multiple environmnet (2)** in the **scope (1)** section              
+9. Select **Add multiple environmnet (2)** in the **scope (1)** section              
 
 
   ![](images/M01/scope.png)
  
-1. Select your environmnet and click on **Add Policy**
+10. Select your environmnet and click on **Add Policy**
 
   ![](images/M01/addpolicy.png)
 
-1. Click **Next**.                                             
+11. Click **Next**.                                             
 
-1. Review the policy and Click **Create policy**.                                   
+12. Review the policy and Click **Create policy**.                                   
 
-1. Navigate to [Power Automate](https://make.powerautomate.com) and make sure you in the sandbox environment.                                         
+13. Navigate to [Power Automate](https://make.powerautomate.com) and make sure you in the sandbox environment.                                         
 
-1. Select **My flows**.                                       
+14. Select **My flows**.                                       
 
-1. The flow should now be suspended because of the DLP you created. Click to open the flow. This can take up to 5 minutes, wait few minutes and then click refresh.                                                   
+15. The flow should now be suspended because of the DLP you created. Click to open the flow. This can take up to 5 minutes, wait few minutes and then click refresh.                                                   
 
   ![](images/M01/image35.png)
   
 
- 1. You should not be able to run the flow.
+ 16. You should not be able to run the flow.
 
   
   ![](images/M01/image36.png)
