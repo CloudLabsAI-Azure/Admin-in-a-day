@@ -61,102 +61,102 @@ looking at the following:
 
 3. Notice the **type column**, you can see Fabrikam is already using several types of environments.                  
 
-1. You can filter and order environments. Click on the **Type** column, select filter by **Production**, and click **Apply**.           
+4. You can filter and order environments. Click on the **Type** column, select filter by **Production**, and click **Apply**.           
 
 
      ![](images/M01/image2.png)
 
 
-4. You should now see only the **Production** type environments.
+5. You should now see only the **Production** type environments.
 
 
      ![](images/M01/image3.png)
 
 
-5. Click on the **Type** column again and filter by **Default** and **Production**. 
+6. Click on the **Type** column again and filter by **Default** and **Production**. 
 
 
   ![](images/M01/image4.png)
 
 
-6. You should now see **Production** and **Default** environments.
+7. You should now see **Production** and **Default** environments.
   
-7. Click on the **Environments** column, select **Sort order** by **Ascending**, and click **Apply**.
+8. Click on the **Environments** column, select **Sort order** by **Ascending**, and click **Apply**.
 
 
   ![](images/M01/image5.png)
   
 
 
-8. The list of environments will show **Production** and *Default* environment ordered by environment name in ascending order.                                            
+9. The list of environments will show **Production** and *Default* environment ordered by environment name in ascending order.                                            
 
   ![](images/M01/image6.png)
   
 
-9. Now remove the filters and you should see all environments.                                              
+10. Now remove the filters and you should see all environments.                                              
 
-10. Next, notice all the environments with **Thrive HR** in the name. These are a set of environments Contoso uses to manage the lifecycle of their Thrive apps; a         suite of employee engagement apps.They are built in Thrive HR - Dev and then are promoted to Test -\> UAT-\> Production after testing  by your admin team.                                        
-11. Click on the **Type** and filter by **Default**.    
+11. Next, notice all the environments with **Thrive HR** in the name. These are a set of environments Contoso uses to manage the lifecycle of their Thrive apps; a         suite of employee engagement apps.They are built in Thrive HR - Dev and then are promoted to Test -\> UAT-\> Production after testing  by your admin team.                                        
+12. Click on the **Type** and filter by **Default**.    
 
-12. This is the environment in which all users are makers and can build their own apps and flows. Think of this environment as supporting personal productivity use         of the platform. This is also the default location used by any customizations built with Power Apps in  Office apps. The default environment can't be deleted, but     you can rename it to make clear its purpose. For example, some name it *User* *and Team Productivity* like we have in this tenant.    
+13. This is the environment in which all users are makers and can build their own apps and flows. Think of this environment as supporting personal productivity use         of the platform. This is also the default location used by any customizations built with Power Apps in  Office apps. The default environment can't be deleted, but     you can rename it to make clear its purpose. For example, some name it *User* *and Team Productivity* like we have in this tenant.    
 
-13. Select the default environment by clicking on the name in the list to drill down into the detail page.               
+14. Select the default environment by clicking on the name in the list to drill down into the detail page.               
 
   
   ![](images/M01/image7.png)
   
 
-14. In the **Access** section. Notice the two roles that are available.
+15. In the **Access** section. Notice the two roles that are available.
 
 
   ![](images/M01/image8.png)
   
 
-15. Click on **Environment Maker**.
+16. Click on **Environment Maker**.
 
  
   ![](images/M01/image9.png)
   
 
-16. Notice Tenant is listed; this means everyone in the tenant has this role. For environments other than default, you control this. However, default is special and       Tenant can't be removed from the role.                                 
+17. Notice Tenant is listed; this means everyone in the tenant has this role. For environments other than default, you control this. However, default is special and       Tenant can't be removed from the role.                                 
 
 
   ![](images/M01/image10.png)
   
 
-17. Go back and in the **Resources** section, click **Power Apps**.
+18. Go back and in the **Resources** section, click **Power Apps**.
 
   
   ![](images/M01/image11.png)
   
 
-18. These are apps built by users in your default environment. Notice many of them are just test names because this is where a lot of users will experiment and build       their first app. As you scroll down the list you might notice some names are more deliberate e.g. Product Showcase. Later in the course we will talk about how to       identify these upcoming apps so you can help give them the guidance to ensure they mature and have adequate governance.
+19. These are apps built by users in your default environment. Notice many of them are just test names because this is where a lot of users will experiment and build       their first app. As you scroll down the list you might notice some names are more deliberate e.g. Product Showcase. Later in the course we will talk about how to       identify these upcoming apps so you can help give them the guidance to ensure they mature and have adequate governance.
 
 
-19. Click on the ... and select Details to view app details, such as app type (standard/premium), web link, connections  and shared with information.                               
+20. Click on the ... and select Details to view app details, such as app type (standard/premium), web link, connections  and shared with information.                               
 
   ![](images/M01/image12.png)
   
 
-20.Go back to the previous page and click on **Flows** in the **Resources** section and you will notice a similar pattern to apps.                                           
+21.Go back to the previous page and click on **Flows** in the **Resources** section and you will notice a similar pattern to apps.                                           
 
   
   ![](images/M01/image13.png)
   
 
-21. From here you can quickly turn off a flow that is active, as well as delete it if necessary.
+22. From here you can quickly turn off a flow that is active, as well as delete it if necessary.
 
  
   ![](images/M01/image14.png)
   
 
-22. Click the **...** button on one of the flows and select **Details**.
+23. Click the **...** button on one of the flows and select **Details**.
 
 
   ![](images/M01/image15.png)
   
 
-23. From here you can see who created it, who the owner is as well as what connections it is using. You can also view and share the flow with others from here.             We will discuss that more later in the course.                             
+24. From here you can see who created it, who the owner is as well as what connections it is using. You can also view and share the flow with others from here.             We will discuss that more later in the course.                             
 
 
   ![](images/M01/image16.png)
