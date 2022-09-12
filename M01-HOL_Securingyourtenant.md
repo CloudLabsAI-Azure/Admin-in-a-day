@@ -161,7 +161,9 @@ looking at the following:
 
 1. Navigate to the admin portal https://aka.ms/ppac or https://admin.powerplatform.microsoft.com
 
-2. Expand **Policies** and select **Data policies** on the left navigation.
+2. Expand **Policies (1)** and select **Data policies (2)** on the left navigation.
+
+   ![](images/M01/policy.png)
 
 3. Review the list of existing policies.
     
