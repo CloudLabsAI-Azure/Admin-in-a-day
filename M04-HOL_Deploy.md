@@ -150,39 +150,33 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
    ![](images/M04/image13.png)
    
    c. Click **Create Pipeline**.
-
-  
-      ![](images/M04/image14.png)
+   
+   ![](images/M04/image14.png)
 
 
    d. Click **Use the Classic Editor.**
-
-
-      ![](images/M04/image15.png)
+   
+   ![](images/M04/image15.png)
 
 
    e. Do not change the default values and click **Continue**.
-
-
-      ![](images/M04/image16.png)
+   
+   ![](images/M04/image16.png)
  
 
    f. Select **Empty Job**.
-
-
-      ![](images/M04/image17.png)
+   
+   ![](images/M04/image17.png)
 
 
    g. Click **Save and Queue** and select **Save**.
-
-  
-      ![](images/M04/image18.png)
+   
+   ![](images/M04/image18.png)
 
 
    h. Click **Save**.
-
-  
-      ![](images/M04/image19.png)
+   
+   ![](images/M04/image19.png)
  
 
 2. Add PowerApps Tool Installer task.
@@ -190,13 +184,11 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
  **Note:** The Power Platform Tool Installer needs to be run before any other Power Platform build tasks.
 
    a. Click **+ Add Task to Agent Job 1**.
-
+   
    ![](images/M04/image20.png)
- 
-
+   
    b. Search for **Power Platform** hover over select **Power Platform Tool Installer** and click **Add**.
-
-  
+   
    ![](images/M04/image21.png)
 
 
@@ -205,9 +197,8 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
      a. Search for **Export.**
     
      b. Hover over **Power Platform Export Solution** and click **Add**.
-
-
-      ![](images/M04/image22.png)
+     
+     ![](images/M04/image22.png)
 
 
 4. Open Power Platform Export Solution.
