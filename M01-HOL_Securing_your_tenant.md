@@ -450,13 +450,13 @@ Environments and data policies after exercise #3:
  
  14.	In the **“Scope”** section of the data policy’s wizard, select the 2nd option named **“Add multiple environments”**.
 
-      ![](images/M01-1/image64.png)
+        ![](images/M01-1/image64.png)
       
  15.	In the **“Environment”** section, add the 3 environments to the data policy: **“Thrive HR – Dev/Test/Prod”**.
 
-      ![](images/M01-1/image65.png)
+        ![](images/M01-1/image65.png)
      
-      ![](images/M01-1/image66.png)
+        ![](images/M01-1/image66.png)
       
 16.	Make sure your data policy is configured as intended before creating it.
 
@@ -551,4 +551,4 @@ Environments and data policies after exercise #3:
       
       ![](images/M01-1/image79.png)
       
-9.	Congratulations! You have completed this portion of the workshop. You can now try different combinations of connectors, actions and endpoints to test the outcomes.     You can also modify the data policies. Get creative! 
+9.	**Congratulations!** You have completed this portion of the workshop. You can now try different combinations of connectors, actions and endpoints to test the           outcomes.You can also modify the data policies. Get creative! 
