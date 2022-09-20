@@ -222,13 +222,13 @@ Environments and data policies after exercise #1:
 
 
 
-## Exercise  #2: Reinforcing the default environment
+## Exercise  2: Reinforcing the default environment
 
 ### Scenario
 
 Now that you have established a baseline for the entire organization, it is time to focus on the [default environment](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview#the-default-environment). Every organization is equipped with a single default environment from the very beginning. It is the place where your Makers can play around and get excited about low code. For example, if your Makers build automations directly from the SharePoint product, the resulting cloud flows will be in the default environment. 
 
-   ![](images/M01-1/image27.png)
+![](images/M01-1/image27.png)
    
 Everybody in your organization has access to this default environment which means it has unique needs when it comes to the security and governance of your data. In this second exercise, you will create another data policy that is exclusively applied to the default environment. This data policy will be slightly stricter meaning your Makers in the default environment will be more limited in their app and flow building experiences.  More specifically, you will leverage data policy’s [basic connector classification](https://docs.microsoft.com/en-us/power-platform/admin/dlp-connector-classification), “Business” and “Non-business”, to define a mutual exclusion group (i.e., connectors located in one category cannot be used with connectors in another category).
 
@@ -241,38 +241,38 @@ Environments and data policies after exercise #2:
 ![](images/M01-1/image29.png)
 
 
-### Task #1: Create the “Default data policy”
+### Task 1: Create the “Default data policy”
 
-1.	Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).
-
-    a.	Reminder: Your credentials are in the **“Environment Details”** tab.
+1. Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).
+   
+   a. Reminder: Your credentials are in the **“Environment Details”** tab.
+   
+   ![](images/M01-1/image30.png)
     
-    ![](images/M01-1/image30.png)
+2. Enter the **“Data policies”** page under the **“Policies”** section of the admin center’s left nav.
     
-2.	Enter the **“Data policies”** page under the **“Policies”** section of the admin center’s left nav.
-    
-    a.	You will notice the 1 data policy named **“Baseline data policy”** that you have created beforehand.
+    a. You will notice the 1 data policy named **“Baseline data policy”** that you have created beforehand.
     
     ![](images/M01-1/image31.png)
     
-3.	Click **“New Policy”** in the top command bar to create your second data policy.
+3. Click **“New Policy”** in the top command bar to create your second data policy.
 
-4.	In the **“Policy name”** section of the wizard, name your data policy as follows: **“Default data policy”**.
+4. In the **“Policy name”** section of the wizard, name your data policy as follows: **“Default data policy”**.
     
      ![](images/M01-1/image32.png)
      
-5.	In the **“Prebuilt connectors”** section of the wizard, place Microsoft’s 1st party connectors in **“Business”**.
-    a.	From the **“Non-business (849) | Default”** category, click the **“Blockable”** column.
+5. In the **“Prebuilt connectors”** section of the wizard, place Microsoft’s 1st party connectors in **“Business”**.
+    a. From the **“Non-business (849) | Default”** category, click the **“Blockable”** column.
     
-    b.	Under **“Filter by column value”**, click **“No”**.
+    b. Under **“Filter by column value”**, click **“No”**.
    
-    c.	Click **“Apply”**. 
+    c. Click **“Apply”**. 
     
     ![](images/M01-1/image33.png)
     
-    d.	Select all connectors that are displayed.
+    d. Select all connectors that are displayed.
     
-    e.	Click **“Move to Business”** in the top command bar.
+    e. Click **“Move to Business”** in the top command bar.
 
     ![](images/M01-1/image34.png)
     
@@ -282,43 +282,43 @@ Environments and data policies after exercise #2:
 **Information bubble:** “Business” and “Non-business” are mutually exclusive groups. Your Makers cannot build canvas apps or cloud flows that combine connectors from                            both categories. If your Maker adds a connector from “Business” to its canvas app, then the Maker cannot add a connector from the “Non-                                Business” group, and vice-versa. To summarize, the terms “Business” and “Non-business” have no inherent meaning beyond the mutual exclusion.
  
  
-6.	Move to the **“Scope”** where you will apply the new data policy only to the default environment.
+6. Move to the **“Scope”** where you will apply the new data policy only to the default environment.
     
-    a.	Select the 2nd radio button named **“Add multiple environments”**.
+    a. Select the 2nd radio button named **“Add multiple environments”**.
 
     ![](images/M01-1/image36.png)
     
-    b.	Move to the new section in the wizard named **“Environments”**.
+    b. Move to the new section in the wizard named **“Environments”**.
     
-    c.	In the list of environments under the **“Available”** section, locate the default environment.
+    c. In the list of environments under the **“Available”** section, locate the default environment.
         a.	Note: Your default environment will be named differently, but it will have the **“(default)”** suffix.
     
-    d.	Select the default environment and click **“Add to Policy”** button in the top command bar.
+    d. Select the default environment and click **“Add to Policy”** button in the top command bar.
     
     ![](images/M01-1/image37.png)
     
     ![](images/M01-1/image38.png)
     
-7.	Move to the **“Review”** section of the wizard to confirm you have made the right changes.
+7. Move to the **“Review”** section of the wizard to confirm you have made the right changes.
     
-    a.	Policy name: **“Default data policy”**
+    a. Policy name: **“Default data policy”**
     
-    b.	Prebuilt connectors: **“(24) Business, 797 (Non-business), (0) Blocked”**
+    b. Prebuilt connectors: **“(24) Business, 797 (Non-business), (0) Blocked”**
     
-    c.	Custom connector patterns: **“1 pattern(s) added”**
+    c. Custom connector patterns: **“1 pattern(s) added”**
     
-    d.	Scope: **“Add multiple environments”**
+    d. Scope: **“Add multiple environments”**
     
-    e.	Environments: **“1 environment(s) selected”**
+    e. Environments: **“1 environment(s) selected”**
     
     ![](images/M01-1/image39.png)
     
-8.	Click **“Create policy”** and you will see your second data policy displayed in the **“Data policies”** page. 
+8. Click **“Create policy”** and you will see your second data policy displayed in the **“Data policies”** page. 
 
     ![](images/M01-1/image40.png)  
     
     
-  **More information:** You can apply more than one data policy to an environment. In fact, the default environment is protected by the “Baseline data policy ” and the                         “Default data policy”. **Power Platform will always enforce the strictest outcome** . For example, if any data policy marks a connector as                             “Blocked”, no canvas app or cloud flow can use that connector in the environment. It doesn't matter whether any other policy classifies                                 that connector as “Business” or “Non-business”. Learn more [here](https://docs.microsoft.com/en-us/power-platform/admin/dlp-combined-effect-multiple-policies).
+  **More information:** You can apply more than one data policy to an environment. In fact, the default environment is protected by the “Baseline data policy ” and the                         “Default data policy”. **Power Platform will always enforce the strictest outcome** . For example, if any data policy marks a connector as                             “Blocked”, no canvas app or cloud flow can use that connector in the environment. It doesn't matter whether any other policy classifies                                 that connector as “Business” or “Non-business”. Learn more [here](https://docs.microsoft.com/en-us/power-platform/admin/dlp-combined-effect-                           multiple-policies).
   
   
 **Pro tip:** Although you can layer data policies, try to have at most 2 per environment at once. That will make it easier for you to determine  the effects of your                data policies. Lastly, remember that your environment administrators can autonomously create data policies to environments they administer.
@@ -326,39 +326,39 @@ Environments and data policies after exercise #2:
 
 ### Task 2: Test the new “Default data policy” when building a canvas app
 
-1.	Go to the Power Apps Maker portal at https://make.powerapps.com using your administrator credentials.
+1. Go to the Power Apps Maker portal at https://make.powerapps.com using your administrator credentials.
 
-2.	Make sure you are operating in the **“default environment”**.
+2. Make sure you are operating in the **“default environment”**.
 
-3.	Click on the **“Apps”** section of the left nav.
+3. Click on the **“Apps”** section of the left nav.
 
-4.	Open the **“DLP – Exercise 1 – Task 2”** canvas app that was created previously. Click **“Edit”**. 
+4. Open the **“DLP – Exercise 1 – Task 2”** canvas app that was created previously. Click **“Edit”**. 
 
     ![](images/M01-1/image41.png) 
     
-5.	Add a connector from the **“Business”** category such as **“Microsoft To-Do”**. The canvas app can be saved.    
+5. Add a connector from the **“Business”** category such as **“Microsoft To-Do”**. The canvas app can be saved.    
 
     ![](images/M01-1/image42.png)        ![](images/M01-1/image43.png) 
     
-6.	Add a connector from the **“Non-business”** category such as **“Azure AD”**. 
+6. Add a connector from the **“Non-business”** category such as **“Azure AD”**. 
 
     ![](images/M01-1/image44.png)
     
-7.	Follow the instructions in the dialog after clicking **“Connect”**.
+7. Follow the instructions in the dialog after clicking **“Connect”**.
 
-    a.	Use your tenant administrator credentials.
+    a. Use your tenant administrator credentials.
 
-    b.	Skip the 3rd step for configuring Windows Authenticator for your account.
+    b. Skip the 3rd step for configuring Windows Authenticator for your account.
     
     ![](images/M01-1/image44.png)   ![](images/M01-1/image44.png)   ![](images/M01-1/image44.png)
     
     ![](images/M01-1/image44.png)   ![](images/M01-1/image44.png)
     
-8.	After clicking **“Allow access”**, you will encounter another error. 
+8. After clicking **“Allow access”**, you will encounter another error. 
 
     ![](images/M01-1/image50.png)
     
-9.	**Get creative!** Try different combinations of connectors and test the outcomes.
+9. **Get creative!** Try different combinations of connectors and test the outcomes.
 
 ![](images/M01-1/image51.png)
 
@@ -383,117 +383,117 @@ Environments and data policies after exercise #3:
 
 ### Task 1: Create the “Pro dev data policy”
 
-1.	Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).
+1. Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).
     
-    a.	Reminder: Your credentials are in the **“Environment Details”** tab.
+    a. Reminder: Your credentials are in the **“Environment Details”** tab.
     
     ![](images/M01-1/image5.png)
     
-2.	Enter the **“Data policies”** page under the **“Policies”** section of the admin center’s left nav.
+2. Enter the **“Data policies”** page under the **“Policies”** section of the admin center’s left nav.
     
-    a.	You will notice the 2 data policies that you have created beforehand.
+    a. You will notice the 2 data policies that you have created beforehand.
     
     ![](images/M01-1/image54.png)
     
-3.	Select **“Baseline data policy”** and click the **“Edit policy”** button in the top command bar.
+3. Select **“Baseline data policy”** and click the **“Edit policy”** button in the top command bar.
 
-4.	Move directly to the **“Scope”** section of the data policy’s wizard.
+4. Move directly to the **“Scope”** section of the data policy’s wizard.
 
-5.	Select the 3rd radio button named **“Exclude certain environments”**.
+5. Select the 3rd radio button named **“Exclude certain environments”**.
    
     ![](images/M01-1/image55.png)
     
-6.	Move to the next **“Environments”** section in the data policy’s wizard.
+6. Move to the next **“Environments”** section in the data policy’s wizard.
 
-7.	Select environments **“Thrive HR - Dev”, “Thrive HR - Test”, and “Thrive HR - Prod”** and select **“Add to policy”**.
+7. Select environments **“Thrive HR - Dev”, “Thrive HR - Test”, and “Thrive HR - Prod”** and select **“Add to policy”**.
     
-    a.	Result: The 3 environments are now excluded from the data policy and will not be protected by it.
+    a. Result: The 3 environments are now excluded from the data policy and will not be protected by it.
     
     ![](images/M01-1/image56.png)
     
     ![](images/M01-1/image57.png)
     
-8.	Move to the **“Review”** section of the wizard and click **“Update policy”** if the summary looks right.
+8. Move to the **“Review”** section of the wizard and click **“Update policy”** if the summary looks right.
 
     ![](images/M01-1/image58.png)
     
-9.	Create your final data policy by clicking **“New Policy”** once last time in the top command bar.
+9. Create your final data policy by clicking **“New Policy”** once last time in the top command bar.
 
-10.	In the **“Policy name”** section of the wizard, enter the following name: **“Pro Dev data policy”**.
+10. In the **“Policy name”** section of the wizard, enter the following name: **“Pro Dev data policy”**.
  
     ![](images/M01-1/image59.png)
     
-11.	In the **“Prebuilt connectors”** section of the wizard, block all connectors that are not published by Microsoft.
-    a.	Click the **“Publisher”** column.
+11. In the **“Prebuilt connectors”** section of the wizard, block all connectors that are not published by Microsoft.
+    a. Click the **“Publisher”** column.
     
-    b.	Under **“Filter by column value”**, click **“Non Microsoft”**.
+    b. Under **“Filter by column value”**, click **“Non Microsoft”**.
     
-    c.	Click **“Apply”**.
+    c. Click **“Apply”**.
     
-    d.	Select all connectors that are displayed.
+    d. Select all connectors that are displayed.
     
-    e.	Click **“Block”** in the top command bar.
+    e. Click **“Block”** in the top command bar.
     
     ![](images/M01-1/image60.png)
     
     ![](images/M01-1/image61.png)
     
-12.	Select the MSN weather connector in **“Non-business”** and click **“Configure connector > Connector actions”**.
+12. Select the MSN weather connector in **“Non-business”** and click **“Configure connector > Connector actions”**.
 
     ![](images/M01-1/image62.png)
     
-13.	In the **“Connector actions”** side panel, block the **“Get current weather”** action and block new actions.
+13. In the **“Connector actions”** side panel, block the **“Get current weather”** action and block new actions.
 
     ![](images/M01-1/image63.png)
     
  **More information:** With connector actions (Generally Available), you can control with more granularity how Makers can use a given connector by enabling or                                disabling its actions. Once configured, your Makers cannot build a canvas app or cloud flow if it’s using a blocked action from an enabled                              connector. Learn more [here](https://docs.microsoft.com/en-us/power-platform/admin/dlp-granular-controls).
  
- 14.	In the **“Scope”** section of the data policy’s wizard, select the 2nd option named **“Add multiple environments”**.
+ 14. In the **“Scope”** section of the data policy’s wizard, select the 2nd option named **“Add multiple environments”**.
 
         ![](images/M01-1/image64.png)
       
- 15.	In the **“Environment”** section, add the 3 environments to the data policy: **“Thrive HR – Dev/Test/Prod”**.
+ 15. In the **“Environment”** section, add the 3 environments to the data policy: **“Thrive HR – Dev/Test/Prod”**.
 
         ![](images/M01-1/image65.png)
      
         ![](images/M01-1/image66.png)
       
-16.	Make sure your data policy is configured as intended before creating it.
+16. Make sure your data policy is configured as intended before creating it.
 
       ![](images/M01-1/image67.png)
       
       
 ### Task 2: Test the new “Pro dev data policy” when building a cloud flow
 
-1.	Go to the Maker portal using the same tenant administrator credentials (https:/make.powerautomate.com).
+1. Go to the Maker portal using the same tenant administrator credentials (https:/make.powerautomate.com).
 
-    a.	Non-admin users (ex. your pro devs) will experience the same steps depicted below.
+    a. Non-admin users (ex. your pro devs) will experience the same steps depicted below.
 
-    b.	Reminder: Your credentials are in the **“Environment Details”** tab.
+    b. Reminder: Your credentials are in the **“Environment Details”** tab.
     
      ![](images/M01-1/image5.png)
      
      ![](images/M01-1/image68.png)
      
-2.	Go to the **“My flows”** section in the left nav and create a new cloud flow named **“DLP – Exercise 2 – Task 2”**.
+2. Go to the **“My flows”** section in the left nav and create a new cloud flow named **“DLP – Exercise 2 – Task 2”**.
     
-    a.	The flow must be manually triggered.
+    a. The flow must be manually triggered.
     
     ![](images/M01-1/image69.png)    ![](images/M01-1/image70.png)
     
-3.	Add an operation, and search for **“MSN weather”**.    
+3. Add an operation, and search for **“MSN weather”**.    
      
       ![](images/M01-1/image71.png)
       
-4.	Select the **“Get current weather”** action – which is currently blocked – and fill in the information.
+4. Select the **“Get current weather”** action – which is currently blocked – and fill in the information.
     
-    a.	You will immediately get an error via the Flow checker when clicking save.
+    a. You will immediately get an error via the Flow checker when clicking save.
       
     ![](images/M01-1/image72.png)
     
-5.	Delete the operation and add another one such as **“Get forecast for today”**.
+5. Delete the operation and add another one such as **“Get forecast for today”**.
     
-    a.	Your flow will immediately be re-enabled when clicking save.
+    a. Your flow will immediately be re-enabled when clicking save.
     
     ![](images/M01-1/image73.png)
     
@@ -501,20 +501,20 @@ Environments and data policies after exercise #3:
     
 ### Bonus task: Enable the HTTP connector with endpoint filtering (public preview)
 
-1.	Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).
+1. Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).
     
-    a.	Reminder: Your credentials are in the **“Environment Details”** tab.
+    a. Reminder: Your credentials are in the **“Environment Details”** tab.
     
     ![](images/M01-1/image5.png)
 
 
-2.	Locate the HTTP connector in the **“Non-business”** category.
+2. Locate the HTTP connector in the **“Non-business”** category.
 
-    a.	Select **“Configure connector > Connector endpoints (preview)”**.
+    a. Select **“Configure connector > Connector endpoints (preview)”**.
 
-    b.	Add an allowed endpoint to the public Cat Fact API: “https://catfact.ninja/*”.
+    b. Add an allowed endpoint to the public Cat Fact API: “https://catfact.ninja/*”.
 
-    c.	Change the action to **“Deny”** for the remaining “*” endpoint. 
+    c. Change the action to **“Deny”** for the remaining “*” endpoint. 
     
     ![](images/M01-1/image74.png)
     
@@ -527,15 +527,15 @@ Environments and data policies after exercise #3:
 
 **Pro tip:** Instead of manually entering each endpoint, you should pattern matching with the wildcard character (*). By entering “https://catfact.ninja/*”, your pro                developers can access any endpoint with that prefix such as “https://catfact.ninja/fact”, “https://catfact.ninja/facts”, or                                            “https://catfact.ninja/breeds”.
 
-3.	Go to the **“Review”** section of the data policy’s wizard and make sure it is properly configured.
+3. Go to the **“Review”** section of the data policy’s wizard and make sure it is properly configured.
 
       ![](images/M01-1/image77.png)
       
-4.	Go to the Maker portal using the same tenant administrator credentials (https:/make.powerautomate.com).
+4. Go to the Maker portal using the same tenant administrator credentials (https:/make.powerautomate.com).
 
-5.	Open the cloud flow that was created in the previous task (“DLP – Exercise 3 – Task 2”).
+5. Open the cloud flow that was created in the previous task (“DLP – Exercise 3 – Task 2”).
 
-6.	Add a new step, search for the **“HTTP”** connector, and add it to the cloud flow.
+6. Add a new step, search for the **“HTTP”** connector, and add it to the cloud flow.
 
     a.	Select **“Get”** as the method.
 
@@ -543,12 +543,12 @@ Environments and data policies after exercise #3:
 
     c.	Leave all other fields empty.
 
-7.	Click save, and manually test the cloud flow. You will find a cat joke in the response object.
+7. Click save, and manually test the cloud flow. You will find a cat joke in the response object.
 
       ![](images/M01-1/image78.png)
       
-8.	If you change the URI to “https://official-joke-api.appspot.com/random_joke” your cloud flow will be disabled.
+8. If you change the URI to “https://official-joke-api.appspot.com/random_joke” your cloud flow will be disabled.
       
       ![](images/M01-1/image79.png)
       
-9.	**Congratulations!** You have completed this portion of the workshop. You can now try different combinations of connectors, actions and endpoints to test the           outcomes.You can also modify the data policies. Get creative! 
+9. **Congratulations!** You have completed this portion of the workshop. You can now try different combinations of connectors, actions and endpoints to test the           outcomes.You can also modify the data policies. Get creative! 
