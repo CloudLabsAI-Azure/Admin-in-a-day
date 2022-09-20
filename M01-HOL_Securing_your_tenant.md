@@ -154,7 +154,7 @@ Environments and data policies after exercise #1:
  
    b. Change the default data group from **"Ignore"** to **"Blocked (default)"**.
 
-  ![](images/M01-1/image17.png)       ![](images/M01-1/image18.png)
+  ![](images/M01-1/image17.png)  ![](images/M01-1/image18.png)
        
   
 
