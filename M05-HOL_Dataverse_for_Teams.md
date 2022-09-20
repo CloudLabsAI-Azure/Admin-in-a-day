@@ -39,14 +39,11 @@
 
 9. Do the same for the rest of the users up to lab admin 20 and then click Add.                                          
 
-
-    ![](images/M05/image5.png)
+   ![](images/M05/image5.png)
  
-
 10. Make all the users co-owners of the team and click **Close**.
 
-
-    ![](images/M05/image6.png)
+   ![](images/M05/image6.png)
  
 
 ### Task 2: Create an app
