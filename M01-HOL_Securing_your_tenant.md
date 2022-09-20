@@ -9,7 +9,6 @@
 
 **Lab theory** 
 
-**Lab test environment**
 
 1. Exercise 1 - Baseline data policy for the entire tenant
 
@@ -49,16 +48,7 @@ Thankfully, Power Platform's [data Policies](https://docs.microsoft.com/en-us/po
 
 
 ![](images/M01-1/image1.png)
-
-
-## Lab test environment
-
-Please use the unique tenant and the user credentials provided to complete the following 3 exercises.
-
-
- •  Registration URL: https://bit.ly/3TVhk9u 
-
- •  Activation code: ACTIVATE25983           
+        
 
 
 ## Exercise 1: Baseline data policy for the entire tenant
