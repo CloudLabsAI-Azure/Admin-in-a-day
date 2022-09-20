@@ -1,6 +1,6 @@
 # Admin in a day
 
-## Dataverse for Teams
+## Dataverse for Teams (Optional)
 
 
 ### Lab Scenario
