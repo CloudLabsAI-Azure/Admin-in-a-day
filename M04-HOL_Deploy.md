@@ -140,19 +140,15 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
 ### Task 1: Export Solution
 
 1. Create a Build Pipeline.
-
+   
    a. Click to expand **Pipelines**.
-
-
-     ![](images/M04/image12.png)
   
-
+   ![](images/M04/image12.png)
+   
    b. Select **Pipelines**.
-
-  
-     ![](images/M04/image13.png)
-  
-
+   
+   ![](images/M04/image13.png)
+   
    c. Click **Create Pipeline**.
 
   
