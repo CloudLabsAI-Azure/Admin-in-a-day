@@ -1,4 +1,4 @@
- # Admin in a day
+# Admin in a day
 
 ## M04-HOL Application Lifecycle Management and Deploying Apps (Optional)
 
@@ -47,11 +47,11 @@
  In this exercise, you will be signing up for an Azure DevOps account
  and configuring the PowerApps build tools for the account.
 
- **Note:** If you already have Azure DevOps outside of this course and this environment, you CANNOT use that here. You will need to follow our instructions to sign              up.
+ **Note:** If you already have Azure DevOps outside of this course and this environment, you CANNOT use that here. You will need to follow our instructions to sign                up.
 
 ### Task 1: Signup for Azure DevOps
 
- 1. Navigate to and click **Sign in to Azure DevOps**.
+1. Navigate to and click **Sign in to Azure DevOps**.
 
  **Note:** Use the same account you have been using for the other labs.
 
@@ -65,7 +65,7 @@
 
 4. Click **Continue**.
 
-5. If prompted, provide a unique **Azure DevOps Organization** name such as lastnameMMYY, select a location closest to your tenant, select your region, enter captcha    if prompted and click **Continue**. Replace lastname with your last name, MM current month and YY current year.
+5. If prompted, provide a unique **Azure DevOps Organization** name such as lastnameMMYY, select a location closest to your tenant, select your region, enter captcha      if prompted and click **Continue**. Replace lastname with your last name, MM current month and YY current year.
 
   ![](images/M04/image2.png)
   
