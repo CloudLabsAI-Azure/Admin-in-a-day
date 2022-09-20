@@ -212,13 +212,13 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
 5. Get your development environment URL
      a. Start a new browser window or tab and navigate to
 
-     b.Select **Environments** and click to open the **Device Ordering Development** environment. c. Copy the **Environment URL** and keep it in your clipboard or you        can keep this URL on a notepad.
+     b. Select **Environments** and click to open the **Device Ordering Development** environment. c. Copy the **Environment URL** and keep it in your clipboard or you        can keep this URL on a notepad.
 
   
       ![](images/M04/image24.png)
 
 
-     d.Close the **Power Platform Admin** browser window or tab.
+     d. Close the **Power Platform Admin** browser window or tab.
 
 6. Create a **Generic Service Connection.** Service Connections are how the build tasks know what environment URL and user credentials to use to access the Common        Data Service environments. 
  
@@ -255,7 +255,7 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
 
      a. Go back to the **Build Pipeline** tasks and make sure you still have PowerApps Export Solution task selected.
 
-     b.Locate the **Service Connection** field and click **Refresh**.
+     b. Locate the **Service Connection** field and click **Refresh**.
 
       ![](images/M04/image29.png)
   
@@ -299,7 +299,7 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
       ![](images/M04/image35.png)
   
 
-     b.Search for **Unpack**.
+     b. Search for **Unpack**.
      
      c. Hover over **Power Platform Unpack Solution** and click **Add**.
 
@@ -326,7 +326,7 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
        ![](images/M04/image38.png)
   
 
-     b.Scroll down and check the **Allow Scripts to Access the OAuth Token** checkbox.
+     b. Scroll down and check the **Allow Scripts to Access the OAuth Token** checkbox.
 
 
        ![](images/M04/image39.png)
@@ -340,7 +340,7 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
   
 
 
-     b.Search for **Command line**. 
+     b. Search for **Command line**. 
 
      c. Hover over **Command Line** and click **Add**.             
 
@@ -356,7 +356,7 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
        ![](images/M04/image42.png)
   
 
-     b.Paste the script below in the **Script** text area. Replace **user@myorg.onmicrosoft.com** with your username.
+     b. Paste the script below in the **Script** text area. Replace **user@myorg.onmicrosoft.com** with your username.
 
         
          echo commit all changes                                            
@@ -378,7 +378,7 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
      
      a. Select the **Variables** tab.
      
-     b.Click **+ Add.**
+     b. Click **+ Add.**
 
   
        ![](images/M04/image44.png)
@@ -390,9 +390,9 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
        ![](images/M04/image45.png)
   
 
-    d.Click **Save and Queue** and select **Save**.
+    d. Click **Save and Queue** and select **Save**.
     
-    e.Click **Save** again.
+    e. Click **Save** again.
 
 
 ## Exercise 3: Test the Pipeline
@@ -405,7 +405,7 @@ In this exercise, you will test the build pipeline you created.
 1. Open the build pipeline.
     a. Navigate to and click to open the **Device Management** project.
     
-    b.Select **Pipelines \| Pipelines**.
+    b. Select **Pipelines \| Pipelines**.
 
   
       ![](images/M04/image13.png)
@@ -469,21 +469,21 @@ In this exercise, you will test the build pipeline you created.
       ![](images/M04/image54.png)
   
 
-    n.Select **Pipelines** | **Pipelines** in the left navigation.
+    n. Select **Pipelines** | **Pipelines** in the left navigation.
 
   
       ![](images/M04/image55.png)
  
 
-    o.Click to open the failed run.
+    o. Click to open the failed run.
     
-    p.Click **Run Pipeline**.
+    p. Click **Run Pipeline**.
 
   
       ![](images/M04/image56.png)
  
 
-    q.Click **Run** and wait until the status changes to **Running**. 
+    q. Click **Run** and wait until the status changes to **Running**. 
     
     r. Click to open the job.
 
@@ -517,7 +517,7 @@ In this exercise, you will test the build pipeline you created.
       ![](images/M04/image61.png)
   
 
-    d.You may examine the content of the folders.
+    d. You may examine the content of the folders.
 
 ## Exercise 4: Build Manage Solution and Publish Artifacts
 
@@ -595,6 +595,7 @@ In this exercise, you will test the build pipeline you created.
  
 
 11. Enter **$(Build.SourcesDirectory)\$(SolutionName)** for **Source Folder of Solution to Pack**, enter **$(Build.ArtifactStagingDirectory)\$(SolutionName).zip**         for **Solution Output Folder**.
+
 12. Change the solution type to **Managed**
 
 
@@ -619,6 +620,7 @@ In this exercise, you will test the build pipeline you created.
   
 
 16. Click **Add a Task**.
+
 17. Search **Publish Pipeline**, hover over **Publish Pipeline Artifact** and click **Add**. Publishing the solution as an artifact will make it available for the         release pipeline you will build.
 
   
@@ -653,7 +655,7 @@ In this exercise, you will test the build pipeline you created.
      ![](images/M04/image79.png)
  
 
-24.Click on **1 artifact produced**
+24. Click on **1 artifact produced**
 
  
      ![](images/M04/image80.png)
@@ -702,7 +704,7 @@ In this exercise, you will test the build pipeline you created.
      ![](images/M04/image84.png)
  
 
-5.Click **New Service Connection**.
+5. Click **New Service Connection**.
 
 
      ![](images/M04/image85.png)
@@ -886,11 +888,5 @@ Go back to Releases and click **Create Release and Create**
 
 
 
- DISCLAIMER
-
- This demo/lab contains only a portion of new features and enhancements
- in Microsoft Power Apps. Some of the features might change in future
- releases of the product. In this demo/lab, you will learn about some,
- but not all, new features.
 
 
