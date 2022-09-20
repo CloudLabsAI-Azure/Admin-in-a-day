@@ -1,8 +1,11 @@
 # Admin in a day
 
+
 ## M01-HOL-Securing your tenant
 
+
 ## Table of Contents
+
 
 **Lab theory** 
 
@@ -66,22 +69,20 @@ Your first objective as a tenant administrator is to establish a first layer of 
 
 Environments and data policies before exercise #1:
 
-  ![](images/M01-1/image3.png)
+![](images/M01-1/image3.png)
 
 Environments and data policies after exercise #1:
 
-  ![](images/M01-1/image4.png)
+![](images/M01-1/image4.png)
 
 
 ### Task 1: Create the "Baseline data policy"
 
- 1.   Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).   
-    
-        
-        a. Reminder: Your credentials are in the **"Environment Details"** tab.
-
-      
-        ![](images/M01-1/image5.png)
+1. Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).   
+   
+   a. Reminder: Your credentials are in the **"Environment Details"** tab.
+   
+   ![](images/M01-1/image5.png)
     
 
 2. Enter the **"Data policies"** page under the "Policies" section of the admin center's left nav.
