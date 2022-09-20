@@ -120,13 +120,13 @@ Environments and data policies after exercise #1:
         
 6. Important: Find the **"MSN weather"** and the **"HTTP"** connector in **"Non-business"** and block them too.
 
-     ![](images/M01-1/image11.png)        
+     ![](images/M01-1/image11.png)  ![](images/M01-1/image12.png)       
 
-     ![](images/M01-1/image12.png)
+     
  
-     ![](images/M01-1/image13.png)        
+     ![](images/M01-1/image13.png)  ![](images/M01-1/image14.png)      
  
-     ![](images/M01-1/image14.png)
+     
  
   
   **Additional information:** If a connector is placed in blocked, your Maker will not be able to save a canvas app or cloud flow if it uses this blocked connector.The                               meaning of the "business" and "non-business" categories will be covered in the second exercise of the data policy workshop.
