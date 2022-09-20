@@ -11,10 +11,8 @@
 
 2. Click **Join or create a team**.                                    
 
-
-     ![](images/M05/image1.png)
+    ![](images/M05/image1.png)
   
-
 3. Select **Create a team**. 
 
 4. Select **From scratch**.  
