@@ -5,7 +5,7 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M01-HOL_Securingyourtenant.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M01-HOL_Securing_your_tenant.md",
         "Order": 1
       },
       {
@@ -21,11 +21,11 @@
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M05-Optional-HOL_Dataverse_for_Teams.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M05-HOL_Dataverse_for_Teams.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M05-HOL_Dataverse_for_Teams.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M06-HOL_Dataverse_for_Teams.md",
         "Order": 6
       }
     ]
