@@ -385,27 +385,27 @@ Environments and data policies after exercise #3:
 
 1.	Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).
     
-    a.	Reminder: Your credentials are in the “Environment Details” tab.
+    a.	Reminder: Your credentials are in the **“Environment Details”** tab.
     
     ![](images/M01-1/image5.png)
     
-2.	Enter the “Data policies” page under the “Policies” section of the admin center’s left nav.
+2.	Enter the **“Data policies”** page under the **“Policies”** section of the admin center’s left nav.
     
     a.	You will notice the 2 data policies that you have created beforehand.
     
     ![](images/M01-1/image54.png)
     
-3.	Select “Baseline data policy” and click the “Edit policy” button in the top command bar.
+3.	Select **“Baseline data policy”** and click the **“Edit policy”** button in the top command bar.
 
-4.	Move directly to the “Scope” section of the data policy’s wizard.
+4.	Move directly to the **“Scope”** section of the data policy’s wizard.
 
-5.	Select the 3rd radio button named “Exclude certain environments”.
+5.	Select the 3rd radio button named **“Exclude certain environments”**.
    
     ![](images/M01-1/image55.png)
     
-6.	Move to the next “Environments” section in the data policy’s wizard.
+6.	Move to the next **“Environments”** section in the data policy’s wizard.
 
-7.	Select environments “Thrive HR - Dev”, “Thrive HR - Test”, and “Thrive HR - Prod” and select “Add to policy”.
+7.	Select environments **“Thrive HR - Dev”, “Thrive HR - Test”, and “Thrive HR - Prod”** and select **“Add to policy”**.
     
     a.	Result: The 3 environments are now excluded from the data policy and will not be protected by it.
     
@@ -413,46 +413,46 @@ Environments and data policies after exercise #3:
     
     ![](images/M01-1/image57.png)
     
-8.	Move to the “Review” section of the wizard and click “Update policy” if the summary looks right.
+8.	Move to the **“Review”** section of the wizard and click **“Update policy”** if the summary looks right.
 
     ![](images/M01-1/image58.png)
     
-9.	Create your final data policy by clicking “New Policy” once last time in the top command bar.
+9.	Create your final data policy by clicking **“New Policy”** once last time in the top command bar.
 
-10.	In the “Policy name” section of the wizard, enter the following name: “Pro Dev data policy”.
+10.	In the **“Policy name”** section of the wizard, enter the following name: **“Pro Dev data policy”**.
  
     ![](images/M01-1/image59.png)
     
-11.	In the “Prebuilt connectors” section of the wizard, block all connectors that are not published by Microsoft.
-    a.	Click the “Publisher” column.
+11.	In the **“Prebuilt connectors”** section of the wizard, block all connectors that are not published by Microsoft.
+    a.	Click the **“Publisher”** column.
     
-    b.	Under “Filter by column value”, click “Non Microsoft”.
+    b.	Under **“Filter by column value”**, click **“Non Microsoft”**.
     
-    c.	Click “Apply”.
+    c.	Click **“Apply”**.
     
     d.	Select all connectors that are displayed.
     
-    e.	Click “Block” in the top command bar.
+    e.	Click **“Block”** in the top command bar.
     
     ![](images/M01-1/image60.png)
     
     ![](images/M01-1/image61.png)
     
-12.	Select the MSN weather connector in “Non-business” and click “Configure connector > Connector actions”.
+12.	Select the MSN weather connector in **“Non-business”** and click **“Configure connector > Connector actions”**.
 
     ![](images/M01-1/image62.png)
     
-13.	In the “Connector actions” side panel, block the “Get current weather” action and block new actions.
+13.	In the **“Connector actions”** side panel, block the **“Get current weather”** action and block new actions.
 
     ![](images/M01-1/image63.png)
     
- **More information:** With connector actions (Generally Available), you can control with more granularity how Makers can use a given connector by enabling or                                disabling its actions. Once configured, your Makers cannot build a canvas app or cloud flow if it’s using a blocked action from an enabled                              connector. Learn more here.
+ **More information:** With connector actions (Generally Available), you can control with more granularity how Makers can use a given connector by enabling or                                disabling its actions. Once configured, your Makers cannot build a canvas app or cloud flow if it’s using a blocked action from an enabled                              connector. Learn more [here](https://docs.microsoft.com/en-us/power-platform/admin/dlp-granular-controls).
  
- 14.	In the “Scope” section of the data policy’s wizard, select the 2nd option named “Add multiple environments”.
+ 14.	In the **“Scope”** section of the data policy’s wizard, select the 2nd option named **“Add multiple environments”**.
 
       ![](images/M01-1/image64.png)
       
- 15.	In the “Environment” section, add the 3 environments to the data policy: “Thrive HR – Dev/Test/Prod”.
+ 15.	In the **“Environment”** section, add the 3 environments to the data policy: **“Thrive HR – Dev/Test/Prod”**.
 
       ![](images/M01-1/image65.png)
      
@@ -469,19 +469,86 @@ Environments and data policies after exercise #3:
 
     a.	Non-admin users (ex. your pro devs) will experience the same steps depicted below.
 
-    b.	Reminder: Your credentials are in the “Environment Details” tab.
+    b.	Reminder: Your credentials are in the **“Environment Details”** tab.
     
      ![](images/M01-1/image5.png)
      
      ![](images/M01-1/image68.png)
      
-2.	Go to the “My flows” section in the left nav and create a new cloud flow named “DLP – Exercise 2 – Task 2”.
+2.	Go to the **“My flows”** section in the left nav and create a new cloud flow named **“DLP – Exercise 2 – Task 2”**.
     
     a.	The flow must be manually triggered.
     
     ![](images/M01-1/image69.png)    ![](images/M01-1/image70.png)
     
-3.	Add an operation, and search for “MSN weather”.    
+3.	Add an operation, and search for **“MSN weather”**.    
      
+      ![](images/M01-1/image71.png)
       
+4.	Select the **“Get current weather”** action – which is currently blocked – and fill in the information.
     
+    a.	You will immediately get an error via the Flow checker when clicking save.
+      
+    ![](images/M01-1/image72.png)
+    
+5.	Delete the operation and add another one such as **“Get forecast for today”**.
+    
+    a.	Your flow will immediately be re-enabled when clicking save.
+    
+    ![](images/M01-1/image73.png)
+    
+    
+    
+### Bonus task: Enable the HTTP connector with endpoint filtering (public preview)
+
+1.	Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).
+    
+    a.	Reminder: Your credentials are in the **“Environment Details”** tab.
+    
+    ![](images/M01-1/image5.png)
+
+
+2.	Locate the HTTP connector in the **“Non-business”** category.
+
+    a.	Select **“Configure connector > Connector endpoints (preview)”**.
+
+    b.	Add an allowed endpoint to the public Cat Fact API: “https://catfact.ninja/*”.
+
+    c.	Change the action to **“Deny”** for the remaining “*” endpoint. 
+    
+    ![](images/M01-1/image74.png)
+    
+    ![](images/M01-1/image75.png)
+    
+    ![](images/M01-1/image76.png)
+    
+    
+**More information:** Thanks to connector endpoints (Public Preview), your pro developers can now only use the HTTP connector to connect to the Cat Fact API. In the                         subsequent steps, the pro developers will be blocked if they attempt to connect to any other API. Learn more about this preview feature and its                         limitations [here](https://docs.microsoft.com/en-us/power-platform/admin/dlp-granular-controls#connector-endpoint-filtering).
+
+**Pro tip:** Instead of manually entering each endpoint, you should pattern matching with the wildcard character (*). By entering “https://catfact.ninja/*”, your pro                developers can access any endpoint with that prefix such as “https://catfact.ninja/fact”, “https://catfact.ninja/facts”, or                                            “https://catfact.ninja/breeds”.
+
+3.	Go to the **“Review”** section of the data policy’s wizard and make sure it is properly configured.
+
+      ![](images/M01-1/image77.png)
+      
+4.	Go to the Maker portal using the same tenant administrator credentials (https:/make.powerautomate.com).
+
+5.	Open the cloud flow that was created in the previous task (“DLP – Exercise 3 – Task 2”).
+
+6.	Add a new step, search for the **“HTTP”** connector, and add it to the cloud flow.
+
+    a.	Select **“Get”** as the method.
+
+    b.	Enter “https://catfact.ninja/fact” as the URI.
+
+    c.	Leave all other fields empty.
+
+7.	Click save, and manually test the cloud flow. You will find a cat joke in the response object.
+
+      ![](images/M01-1/image78.png)
+      
+8.	If you change the URI to “https://official-joke-api.appspot.com/random_joke” your cloud flow will be disabled.
+      
+      ![](images/M01-1/image79.png)
+      
+9.	Congratulations! You have completed this portion of the workshop. You can now try different combinations of connectors, actions and endpoints to test the outcomes.     You can also modify the data policies. Get creative! 
