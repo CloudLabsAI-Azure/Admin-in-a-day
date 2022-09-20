@@ -120,13 +120,13 @@ Environments and data policies after exercise #1:
         
 6. Important: Find the **"MSN weather"** and the **"HTTP"** connector in **"Non-business"** and block them too.
 
-     ![](images/M01-1/image11.png)  ![](images/M01-1/image12.png)       
+     ![](images/M01-1/image11.png)        
 
-     
+     ![](images/M01-1/image12.png) 
  
-     ![](images/M01-1/image13.png)  ![](images/M01-1/image14.png)      
+     ![](images/M01-1/image13.png)       
  
-     
+     ![](images/M01-1/image14.png) 
  
   
   **Additional information:** If a connector is placed in blocked, your Maker will not be able to save a canvas app or cloud flow if it uses this blocked connector.The                               meaning of the "business" and "non-business" categories will be covered in the second exercise of the data policy workshop.
@@ -152,8 +152,9 @@ Environments and data policies after exercise #1:
  
    b. Change the default data group from **"Ignore"** to **"Blocked (default)"**.
 
-  ![](images/M01-1/image17.png)  ![](images/M01-1/image18.png)
-       
+  ![](images/M01-1/image17.png)  
+  
+  ![](images/M01-1/image18.png)    
   
 
 **Information bubble:** Your Makers can create their own [custom connectors](https://docs.microsoft.com/en-us/connectors/custom-connectors/) to connect their apps and                         flows with a world of services, like a custom API built by a service oock this by default as a precautionary measure. Soon enough, you will                             want to enable it in specific environments because it is an effective building tool.
@@ -191,33 +192,33 @@ Environments and data policies after exercise #1:
 
 1. Go to the Power Apps Maker portal at https://make.powerapps.com.   
     
-2. Make sure you are working in the default environment. It has the **"(default)"** suffix appended.                                                                                        
-      
-      a. Your default environment is named differently from the one depicted in the screenshots.
-
-      ![](images/M01-1/image22.png)
+2. Make sure you are working in the default environment. It has the **"(default)"** suffix appended.
+   
+   a. Your default environment is named differently from the one depicted in the screenshots.
+   
+   ![](images/M01-1/image22.png)
     
-3.	Click on the **“Apps”** section of the left nav.
+3. Click on the **“Apps”** section of the left nav.
 
-4.	Create a new blank canvas app named **“DLP – Exercise 1 – Task 2”** with a **“Tablet”** format.
+4. Create a new blank canvas app named **“DLP – Exercise 1 – Task 2”** with a **“Tablet”** format.
 
-      ![](images/M01-1/image23.png)
+     ![](images/M01-1/image23.png)
       
-5.	Click the **“Data”** section and **“Add data”**. 
+5. Click the **“Data”** section and **“Add data”**. 
 
      ![](images/M01-1/image24.png)
      
-6.	In the search bar, write **“MSN weather”**. This is currently blocked by your data policy (picture above).
+6. In the search bar, write **“MSN weather”**. This is currently blocked by your data policy (picture above).
 
-7.	Select **“MSN weather”** and click **“Connect”**. You will see an error message.
+7. Select **“MSN weather”** and click **“Connect”**. You will see an error message.
    
      ![](images/M01-1/image25.png)       
      
-8.	Remove the MSN weather data connection. Click **“File”** and save the app to the cloud. It will be reused later.
+8. Remove the MSN weather data connection. Click **“File”** and save the app to the cloud. It will be reused later.
 
      ![](images/M01-1/image26.png)
 
-9.	**Get creative!** Try different combinations of connectors and test the outcomes.
+9. **Get creative!** Try different combinations of connectors and test the outcomes.
 
 
 
