@@ -103,7 +103,7 @@ Environments and data policies after exercise #1:
 
      a. Click the **"Publisher"** column.      
 
-     b.Under **"Filter by column value"**, click **"Non Microsoft"**.                  
+     b. Under **"Filter by column value"**, click **"Non Microsoft"**.                  
 
      c. Click **"Apply"**.             
 
