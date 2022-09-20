@@ -77,10 +77,11 @@ Environments and data policies after exercise #1:
 
  1.   Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).   
     
+        
         a. Reminder: Your credentials are in the **"Environment Details"** tab.
 
-
-       ![](images/M01-1/image5.png)
+      
+        ![](images/M01-1/image5.png)
     
 
 2. Enter the **"Data policies"** page under the "Policies" section of the admin center's left nav.
