@@ -99,7 +99,6 @@ Environments and data policies after exercise #1:
      ![](images/M01-1/image7.png)
   
 
-
 5. In the **"Prebuilt connectors"** section of the wizard, block all connectors that are not published by Microsoft.  
 
      a. Click the **"Publisher"** column.      
@@ -112,15 +111,14 @@ Environments and data policies after exercise #1:
 
      e. Click **"Block"** in the top command bar.                 
 
-      ![](images/M01-1/image8.png)
+     ![](images/M01-1/image8.png)
       
-      ![](images/M01-1/image9.png)
+     ![](images/M01-1/image9.png)
       
-      ![](images/M01-1/image10.png)
+     ![](images/M01-1/image10.png)
         
         
 6. Important: Find the **"MSN weather"** and the **"HTTP"** connector in **"Non-business"** and block them too.
-
 
      ![](images/M01-1/image11.png)        
 
