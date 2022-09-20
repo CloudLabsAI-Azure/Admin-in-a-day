@@ -210,6 +210,7 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
   
 
 5. Get your development environment URL
+     
      a. Start a new browser window or tab and navigate to
 
      b. Select **Environments** and click to open the **Device Ordering Development** environment. c. Copy the **Environment URL** and keep it in your clipboard or you        can keep this URL on a notepad.
@@ -219,6 +220,7 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
 
 
      d. Close the **Power Platform Admin** browser window or tab.
+
 
 6. Create a **Generic Service Connection.** Service Connections are how the build tasks know what environment URL and user credentials to use to access the Common        Data Service environments. 
  
@@ -252,46 +254,38 @@ An Azure Repo is a source/version control container inside the Azure DevOps proj
 
 
 7. Select the Generic Service Connection you created as the Power Apps Environment URL.
+   
+   a. Go back to the **Build Pipeline** tasks and make sure you still have PowerApps Export Solution task selected.
 
-     a. Go back to the **Build Pipeline** tasks and make sure you still have PowerApps Export Solution task selected.
-
-     b. Locate the **Service Connection** field and click **Refresh**.
-
-      ![](images/M04/image29.png)
+   b. Locate the **Service Connection** field and click **Refresh**.
+   
+   ![](images/M04/image29.png)
+   
+   c. Select the **Generic Service Connection** you just created named Dev Connection.
+   
+   ![](images/M04/image30.png)
+   
+   d. Enter **\$(SolutionName)** for **Solution Name**, **\$(Build.ArtifactStagingDirectory)\\\$(SolutionName).zip** for **Solution Output File**.
+   
+   ![](images/M04/image31.png)
+   
+   e. Click **+** add Task.
+   
+   ![](images/M04/image32.png)
+   
+   f. Add another **Export Solution** task.
+   
+   ![](images/M04/image33.png)
+   
+   g. Select **Dev Connection** for the Power Apps Environment URL.
+   
+   h. Check the Export as Managed Solution.
+   
+   i. Enter **\$(SolutionName)** for **Solution Name**, **$(Build.ArtifactStagingDirectory)\$(SolutionName)_managed.zip** for **Solution** **Output File**
+   
+   ![](images/M04/image34.png)
   
 
-     c. Select the **Generic Service Connection** you just created named Dev Connection.
-
-      ![](images/M04/image30.png)
- 
-
-     d. Enter **\$(SolutionName)** for **Solution Name**, **\$(Build.ArtifactStagingDirectory)\\\$(SolutionName).zip** for **Solution Output File**.
-
-  
-      ![](images/M04/image31.png)
-  
-
-     e. Click **+** add Task.
-
- 
-      ![](images/M04/image32.png)
-  
-
-     f. Add another **Export Solution** task.
-
-
-      ![](images/M04/image33.png)
-  
-
-     g. Select **Dev Connection** for the Power Apps Environment URL.
-     
-     h. Check the Export as Managed Solution.
-     
-     i. Enter **\$(SolutionName)** for **Solution Name**, **$(Build.ArtifactStagingDirectory)\$(SolutionName)_managed.zip** for **Solution** **Output File**
-
-  
-      ![](images/M04/image34.png)
-  
 8. Add an Unpack task. This task will take the solution zip file and expand it into a file for each solution component.\
    
      a. Click **+ Add Task**.
