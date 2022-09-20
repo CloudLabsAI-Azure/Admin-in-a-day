@@ -291,8 +291,8 @@ Environments and data policies after exercise #2:
     b. Move to the new section in the wizard named **“Environments”**.
     
     c. In the list of environments under the **“Available”** section, locate the default environment.
-        
-        a. Note: Your default environment will be named differently, but it will have the **“(default)”** suffix.
+    
+      a. Note: Your default environment will be named differently, but it will have the **“(default)”** suffix.
     
     d. Select the default environment and click **“Add to Policy”** button in the top command bar.
     
