@@ -132,10 +132,9 @@ Environments and data policies after exercise #1:
   **Additional information:** If a connector is placed in blocked, your Maker will not be able to save a canvas app or cloud flow if it uses this blocked connector.The                               meaning of the "business" and "non-business" categories will be covered in the second exercise of the data policy workshop.
 
 
-
 7. In the "Set default group" in the top command bar, you will block all new connectors.   
-    
-      a. All new connectors added in the future -- whether published by Microsoft or not - will be blocked.
+  
+   a. All new connectors added in the future - whether published by Microsoft or not - will be blocked.
                                                                                                   
    ![](images/M01-1/image15.png)
        
