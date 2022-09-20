@@ -1,4 +1,6 @@
-# Lab 03 - Action through Automation
+# Admin in a day
+
+# M03-HOL Action through Automation
 
 ## Lab Scenario
 
