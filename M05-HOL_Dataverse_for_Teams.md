@@ -49,7 +49,7 @@
 ### Task 2: Create an app
 
 
-1.Navigate to Microsoft Teams and log in with the **admin account** 
+1. Navigate to Microsoft Teams and log in with the **admin account** 
 
 2. Click **Join or create a team**.                                    
 
