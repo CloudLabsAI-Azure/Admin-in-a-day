@@ -1,6 +1,6 @@
  # Admin in a day
 
-## M04-HOL Application Lifecycle Management and Deploying Apps
+## M04-HOL Application Lifecycle Management and Deploying Apps (Optional)
 
 
 ### Lab Scenario
