@@ -1,7 +1,7 @@
 # Admin in a day
 
 
-## M01-HOL-Application Lifecycle Management - Managed Environments and Pipeline
+## M02-HOL-Application Lifecycle Management - Managed Environments and Pipeline
 
 
 ## Table of Contents
