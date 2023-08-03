@@ -61,8 +61,7 @@ state. A managed environment can greatly expand the level of control for adminis
    particular license is required in order to use the resources. While an unmanaged environment will allow users to interact with resources freely, a managed environment prevents them 
    from doing so if they do not have the correct license for the respective areas. 
 
-    a. In Limit Sharing, choose **Exclude sharing with security group**s. Once this is enabled, you can restrict the users the app gets shared to. You can exclude certain groups, or, as 
-       you will next, limit the number of users the app can be shared to. 
+    a. In Limit Sharing, choose **Exclude sharing with security group**s. Once this is enabled, you can restrict the users the app gets shared to.
 
     b. Select the **Limit individuals…** checkbox and set the limit number to **3**. 
 
