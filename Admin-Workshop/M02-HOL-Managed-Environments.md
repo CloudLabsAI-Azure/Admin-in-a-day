@@ -135,22 +135,17 @@ state. A managed environment can greatly expand the level of control for adminis
 
 ### Exercise 2: Power Platform Pipelines
 
-Another feature of a managed environment is the ability to utilize the in-platform pipelines to
-democratize application lifecycle management (ALM) by bringing the ALM automation and continuous
+Another feature of a managed environment is the ability to utilize the in-platform pipelines to democratize application lifecycle management (ALM) by bringing the ALM automation and continuous integration and continuous delivery (CI/CD) capabilities to the service. Included with these is the ability to view out of the box analytics within a central location and Power BI reports. Pipelines can deploy solutions, connections, connection references, and environment variables to environments of the same region as the host environment.
 
-integration and continuous delivery (CI/CD) capabilities to the service. Included with these is the ability
-
-to view out of the box analytics within a central location and Power BI reports. Pipelines can deploy
-
-solutions, connections, connection references, and environment variables to environments of the same
-region as the host environment.
 
 1. Navigate to Power Platform admin center by using below URL and select environments.
+
      ```
-        https://admin.powerplatform.microsoft.com/environments
+     https://admin.powerplatform.microsoft.com/environments
+
      ```.
 
-2. For this lab, we will use this structure for our environments, following the guidelines for
+3. For this lab, we will use this structure for our environments, following the guidelines for
     Application Lifecycle Management (ALM).
        a.
           **Pipeline Stage Environment Name Type**
