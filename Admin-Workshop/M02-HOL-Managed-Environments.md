@@ -145,7 +145,7 @@ Another feature of a managed environment is the ability to utilize the in-platfo
 1. Navigate to Power Platform admin center by using below URL and select environments if not already opened.
 
      ```
-     https://admin.powerplatform.microsoft.com/environments
+      https://admin.powerplatform.microsoft.com/environments
 
      ```.
 
@@ -257,7 +257,7 @@ Another feature of a managed environment is the ability to utilize the in-platfo
 
 10. You’ll need to add the Dev, Test, and Prod environments as our deployment environments to create the environment records in Dataverse:
 
-       a.  _Name_ : **Thrive Hr - Dev (1)**
+           _Name_ : **Thrive Hr - Dev (1)**
 
           _Environment Type_ : **Development Environment (2)**
 
