@@ -119,7 +119,7 @@ Environments and data policies after exercise #1:
      ![](images/M01-1/image14.png) 
  
   
-  **Additional information:** If a connector is placed in blocked, your Maker will not be able to save a canvas app or cloud flow if it uses this blocked connector.The                               meaning of the "business" and "non-business" categories will be covered in the second exercise of the data policy workshop.
+  **Additional information:** If a connector is placed in blocked, your Maker will not be able to save a canvas app or cloud flow if it uses this blocked connector.The                         meaning of the "business" and "non-business" categories will be covered in the second exercise of the data policy workshop.
 
 
 7. In the "Set default group" in the top command bar, you will block all new connectors.   
@@ -132,8 +132,9 @@ Environments and data policies after exercise #1:
 
 
 
-**Pro tip:** Before blocking all new connectors, make sure you have established a process to regularly review new connectors that have been recently introduced to                  the Power Platform. You might find something that could be incredibly valuable to your organization. All connectors are listed in this 
-             [public documentation](https://docs.microsoft.com/en-us/connectors/connector-reference/connector-reference-powerapps-connectors). 
+**Pro tip:** Before blocking all new connectors, make sure you have established a process to regularly review new connectors that have been recently introduced to the                      
+  Power Platform. You might find something that could be incredibly valuable to your organization. All connectors are listed in this 
+  [public documentation](https://docs.microsoft.com/en-us/connectors/connector-reference/connector-reference-powerapps-connectors). 
 
 
 8. In the **"custom connectors"** section of the wizard, block the first and only **"custom connector pattern"**.
@@ -147,8 +148,9 @@ Environments and data policies after exercise #1:
   ![](images/M01-1/image18.png)    
   
 
-**Information bubble:** Your Makers can create their own [custom connectors](https://docs.microsoft.com/en-us/connectors/custom-connectors/) to connect their apps and                         flows with a world of services, like a custom API built by a service oock this by default as a precautionary measure. Soon enough, you will                             want to enable it in specific environments because it is an effective building tool.
-
+**Information bubble:** Your Makers can create their own [custom connectors](https://docs.microsoft.com/en-us/connectors/custom-connectors/) to connect their apps and                   
+  flows with a world of services, like a custom API built by a service oock this by default as a precautionary measure. Soon enough, you will want to enable it in specific environments 
+  because it is an effective building tool.
 
 
 9. Move to the **"Scope"** section where you configure which environments will be protected by this data policy.
@@ -269,7 +271,9 @@ Environments and data policies after exercise #2:
     ![](images/M01-1/image35.png)
     
   
-**Information bubble:** “Business” and “Non-business” are mutually exclusive groups. Your Makers cannot build canvas apps or cloud flows that combine connectors from                            both categories. If your Maker adds a connector from “Business” to its canvas app, then the Maker cannot add a connector from the “Non-                                Business” group, and vice-versa. To summarize, the terms “Business” and “Non-business” have no inherent meaning beyond the mutual exclusion.
+**Information bubble:** “Business” and “Non-business” are mutually exclusive groups. Your Makers cannot build canvas apps or cloud flows that combine connectors from                    
+  both categories. If your Maker adds a connector from “Business” to its canvas app, then the Maker cannot add a connector from the “Non-Business” group, and vice-versa. To summarize, the 
+  terms “Business” and “Non-business” have no inherent meaning beyond the mutual exclusion.
  
  
 6. Move to the **“Scope”** where you will apply the new data policy only to the default environment.
