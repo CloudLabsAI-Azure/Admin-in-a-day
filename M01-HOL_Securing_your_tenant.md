@@ -68,7 +68,7 @@ Environments and data policies after exercise #1:
 
 ### Task 1: Create the "Baseline data policy"
 
-1. Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).   
+1. Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac), in addition you can also click on **settings** icon in maker portal and select     **Admin Center** to navigate to the Power Platform admin center.   
    
    a. Reminder: Your credentials are in the **"Environment Details"** tab.
    
@@ -122,7 +122,7 @@ Environments and data policies after exercise #1:
   **Additional information:** If a connector is placed in blocked, your Maker will not be able to save a canvas app or cloud flow if it uses this blocked connector.The                         meaning of the "business" and "non-business" categories will be covered in the second exercise of the data policy workshop.
 
 
-7. In the "Set default group" in the top command bar, you will block all new connectors.   
+7. In the **"Set default group"** in the top command bar, you will block all new connectors by selecting **Blocked** and click on **Apply**.   
   
    a. All new connectors added in the future - whether published by Microsoft or not - will be blocked.
                                                                                                   
@@ -141,11 +141,11 @@ Environments and data policies after exercise #1:
 
    a. Click **"Edit"**.
  
-   b. Change the default data group from **"Ignore"** to **"Blocked (default)"**.
+   b. Change the default data group from **"Ignore"** to **"Blocked (default)"** and click on **Save**.
 
-  ![](images/M01-1/image17.png)  
+   ![](images/M01-1/image17.png)  
   
-  ![](images/M01-1/image18.png)    
+   ![](images/M01-1/image18.png)    
   
 
 **Information bubble:** Your Makers can create their own [custom connectors](https://docs.microsoft.com/en-us/connectors/custom-connectors/) to connect their apps and                   
@@ -155,12 +155,13 @@ Environments and data policies after exercise #1:
 
 9. Move to the **"Scope"** section where you configure which environments will be protected by this data policy.
   
-    c. "Add all environments" is pre-selected by default.
 
-  ![](images/M01-1/image19.png)       
+   c. "Add all environments" is pre-selected by default.
+
+    ![](images/M01-1/image19.png)       
 
 
-10. Move to the **"Review"** section of the wizard to confirm you have made the right changes (picture above).
+11. Move to the **"Review"** section of the wizard to confirm you have made the right changes (picture above).
 
     d. Policy name: **"Baseline data policy"**                         
 
@@ -174,7 +175,7 @@ Environments and data policies after exercise #1:
     ![](images/M01-1/image20.png)
 
 
-11. Click **"Create policy"** and you will see your first data policy displayed in the **"Data policies"** page.
+12. Click **"Create policy"** and you will see your first data policy displayed in the **"Data policies"** page.
 
       ![](images/M01-1/image21.png) 
 
