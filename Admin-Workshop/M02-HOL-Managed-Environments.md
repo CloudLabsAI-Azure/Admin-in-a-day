@@ -19,9 +19,11 @@
 
    **Scenario**
    
-   - Task 1: 
+   - Task 1: Install Power Platform Pipelines
 
-   - Task 2: 
+   - Task 2: Configure a deployment pipeline
+  
+   - Task 3: Run the pipeline
 
 
 
@@ -137,6 +139,8 @@ state. A managed environment can greatly expand the level of control for adminis
 
 Another feature of a managed environment is the ability to utilize the in-platform pipelines to democratize application lifecycle management (ALM) by bringing the ALM automation and continuous integration and continuous delivery (CI/CD) capabilities to the service. Included with these is the ability to view out of the box analytics within a central location and Power BI reports. Pipelines can deploy solutions, connections, connection references, and environment variables to environments of the same region as the host environment.
 
+#### Task 1: Install Power Platform Pipelines
+
 
 1. Navigate to Power Platform admin center by using below URL and select environments.
 
@@ -150,120 +154,120 @@ Another feature of a managed environment is the ability to utilize the in-platfo
        a.
           **Pipeline Stage Environment Name Type**
 
-```
-OTU WA CNE Default
-```
-```
-Development Thrive Hr - Dev Sandbox
-```
-```
-Test Thrive Hr - Test Sandbox
-```
-```
-Production Thrive Hr - Prod Production
-```
-```
-Host Environments act as storage and management for pipeline configurations, run
-histories, and security settings. Should this environment be deleted, all pipelines and
-run data will be deleted as well and cannot be recovered. Host environments can only
-have development and target environments that exist within the same region as the
-host environment. For this reason, some tenants may have multiple host environments.
-```
+        ```
+        OTU WA CNE Default
+        ```
+        ```
+        Development Thrive Hr - Dev Sandbox
+        ```
+        ```
+        Test Thrive Hr - Test Sandbox
+        ```
+        ```
+        Production Thrive Hr - Prod Production
+        ```
+      ```
+      Host Environments act as storage and management for pipeline configurations, run histories, and security settings. Should this environment be deleted, all pipelines and run data           will be deleted as well and cannot be recovered. Host environments can only have development and target environments that exist within the same region as the host environment. For         this reason, some tenants may have multiple host environments.
+      ```
 
-3. You'll need to modify the managed environment you've created previously in order to become
-    the host for the pipeline. Navigate back to the **Environments** section with the option on the left-
-    side navigation or from the breadcrumbs at the top.
+3. You'll need to modify the managed environment you've updated previously in order to become the host for the pipeline. Navigate back to the **Environments** section with the option on      the left-side navigation or from the breadcrumbs at the top.
 
-    ![](../images/M02/env1.png)
+    ![](../images/M02-1/env1.png)
 
-4. Select **Managed Environments (Initials)** to open a detailed view for the environment.
+4. Select **OTU CNE** to open a detailed view for the environment.
 
-  ![](../images/M02/env1.png)
+    ![](../images/M02-1/otu-1.png)
 
 5. In the **Details** pane, select **Edit.**
 
-  ![](../images/M02/env1.png)
+    ![](../images/M02-1/edit.png)
   
-6. Clear out the existing name and replace it with **Thrive Hr (Initials) - Host** to remain in line with
-    the naming convention of the other environments and select **Save**.
+6. Clear out the existing name and replace it with **Thrive Hr - Host (1)** to remain in line with the naming convention of the other environments and select **Save (2)**.
 
-  ![](../images/M02/env1.png)
+    ![](../images/M02-1/save.png)
 
 
-8. To finish up the setup, you will need to enable managed environments for each of the
-    associated environments in the pipeline. Navigate back to the **Environments** page with the
-    breadcrumbs at the top or the left side navigation.
+8. To finish up the setup, you will need to enable managed environments for each of the associated environments in the pipeline. Navigate back to the **Environments** page with the
+   breadcrumbs at the top or the left side navigation.
 
-   ![](../images/M02/env1.png)
+    ![](../images/M02-1/env1.png)
 
-10. Select the circle next to Thrive Hr - Dev and select Enable Managed Environment.
+10. Select the circle next to **Thrive Hr - Dev (1)** and select **Enable Managed Environment (2)**.
 
- ![](../images/M02/env1.png)
+    ![](../images/M02-1/dev.png)
 
-11. For the purposes of this lab, we will not be configuring each of the associated environments for
-    other features (e.g., Limit Sharing, Usage insights, etc.). Select **Enable** at the bottom of the
-    panel.
+11. For the purposes of this lab, we will not be configuring each of the associated environments for other features (e.g., Limit Sharing, Usage insights, etc.). Select **Enable** at the       bottom of the panel.
 
- ![](../images/M02/env1.png)
+    ![](../images/M02/env1.png)
 
 12. Repeat this process for each of the environments in the setup.
 
-13. Now, you need to install the pipelines app onto the host environment. In the Resources Panel,
-    select **Dynamics 365 apps.** A list of apps currently installed for the environment will appear.
+13. Now, you need to install the pipelines app onto the host environment. In the Resources Panel, select **Dynamics 365 apps.** A list of apps currently installed for the environment will     appear.
   
-  ![](../images/M02/env1.png)
+    ![](../images/M02-1/dynamics-365.png)
 
 14. Select **Install App** from the ribbon at the top.
 
-  ![](../images/M02/env1.png)
+     ![](../images/M02-1/install-app.png)
 
-15. Scroll down to locate **Power Platform Pipelines** and select the name.
+15. Scroll down to locate **Power Platform Pipelines (1)** and select the name, then click on **Next (2)**.
 
-16. Select **Next**.
+    ![](../images/M02-1/pipeline.png)
 
+17. Select the **checkbox (1)** to agree to the Terms of Service, then select **Install (2)**.
 
-17. Select the checkbox to agree to the Terms of Service, then select **Install**.
-18. Confirm that the app is being installed onto the environment by checking that the **Status** reads
-    as **Installing**.
+    ![](../images/M02-1/instal-pipeline.png)
 
+18. Confirm that the app is being installed onto the environment by checking that the **Status** reads as **Installing**.
+
+    ![](../images/M02-1/status.png)
 
 19. **Do not navigate away from this page.**
 
-#### Task 1: Configure a deployment pipeline
+
+#### Task 2: Configure a deployment pipeline
 
 ##### 1A. Add the environments to the database.
 
-1. While waiting for the app to install, you'll need to gather the environment IDs of all
-    development and target environments that will be linked to the pipelines.
-2. To do this, navigate back to the **Environments** page of the Power Platform Admin site from the
-    left-side navigation.
-3. Select the **...** to the right of to **Thrive Hr - Dev** , then select **Detailed View** to get the environment
-    information.
+1. While waiting for the app to install, you'll need to gather the environment IDs of all development and target environments that will be linked to the pipelines.
 
+2. To do this, navigate back to the **Environments** page of the Power Platform Admin site from the left-side navigation.
+
+   ![](../images/M02-1/env3.png)
+
+3. Select the **... (1)** to the right of to **Thrive Hr - Dev** , then select **Detailed View (2)** to get the environment information.
+
+   ![](../images/M02-1/dev-detail.png)
 
 4. Locate the **Environment ID** in the details pane and copy it to a notepad for later.
-5. Repeat this process with **Thrive Hr – Test** and **Thrive Hr – Prod** , copying the IDs to the same
-    notepad.
-6. Navigate to Power Apps and set the environment to the **Thrive Hr – Hos** t environment.
-7. Navigate to **Apps** and select **Deployment Pipeline Configuration**.
-8. Select **Play** from the ribbon at the top.
 
+   ![](../images/M02-1/env-id.png)
 
-9. Select **Environments** on the left pane, and then select **New.**
-10. You’ll need to add the Dev, Test, and Prod environments as our deployment environments to
-    create the environment records in Dataverse:
-       a. _Name_ : **Thrive Hr - Dev**
-       _Environment Type_ : **Development**
-       _Environment Id_ : Paste the Environment ID you copied from earlier here.
+5. Repeat this process with **Thrive Hr – Test** and **Thrive Hr – Prod** , copying the IDs to the same notepad.
 
+6. Navigate to Power Apps and set the environment to the **Thrive Hr – Host** environment.
 
-10. Select **Save**.
+   ![](../images/M02-1/env-host.png)
+
+7. Navigate to **Apps (1)** and select **Deployment Pipeline Configuration (2)**, then select **Play** from the ribbon at the top.
+
+   ![](../images/M02-1/deployment-pipeline-configuration.png)
+
+9. Select **Environments (1)** on the left pane, and then click on ** + ** symbol and select **Deployment Environment (2)**
+
+   ![](../images/M02-1/deployment-env.png)
+
+10. You’ll need to add the Dev, Test, and Prod environments as our deployment environments to create the environment records in Dataverse and click on **Save and Close (4)**:
+       a. _Name_ : **Thrive Hr - Dev (1)**
+       _Environment Type_ : **Development Environment (2)**
+       _Environment Id_ : Paste the **Environment ID (3)** you copied from earlier here.
+
+     ![](../images/M02-1/dev-deployment-env.png)
+
 11. **Refresh** the form, then verify **Validation Status** equals **Success**.
 
+13. Repeat steps 3-11 for **Thrive Hr - Test** and **Thrive Hr - Prod,** setting the type as Target Environments.
 
-12. Select **Save and Close**.
-13. Repeat steps 3-11 for **Thrive Hr - Test** and **Thrive Hr - Prod,** setting the type as Target
-    Environments.
 14. You should have three environments listed now.
 
 ##### 1B. Create a pipeline.
