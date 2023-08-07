@@ -257,11 +257,11 @@ Another feature of a managed environment is the ability to utilize the in-platfo
 
 10. You’ll need to add the Dev, Test, and Prod environments as our deployment environments to create the environment records in Dataverse:
 
-           _Name_ : **Thrive Hr - Dev (1)**
+          Name : **Thrive Hr - Dev (1)**
 
-          _Environment Type_ : **Development Environment (2)**
+          Environment Type : **Development Environment (2)**
 
-          _Environment Id_ : Paste the **Environment ID (3)** you copied from earlier here.
+          Environment Id : Paste the **Environment ID (3)** you copied from earlier here.
 
      ![](../images/M02-1/dev-deployment-env2.png)
 
@@ -298,7 +298,7 @@ Another feature of a managed environment is the ability to utilize the in-platfo
 
 5. Now we need to add the environments we've created to the pipeline. In the **Linked Developments** section, Select **Add Existing Deployment Environment**.
 
-  ![](../images/M02-1/linked-dep.png)
+   ![](../images/M02-1/linked-dep.png)
 
 6. Select the **Thrive HR - Dev** to add the environments to the list and clcik on **Add**.
 
