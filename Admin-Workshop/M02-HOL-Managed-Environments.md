@@ -148,7 +148,7 @@ Another feature of a managed environment is the ability to utilize the in-platfo
     https://admin.powerplatform.microsoft.com/environments
     ```
 
-3. For this lab, we will use this structure for our environments, following the guidelines for Application Lifecycle Management (ALM).
+2. For this lab, we will use this structure for our environments, following the guidelines for Application Lifecycle Management (ALM).
 
      | Pipeline Stage | Environment Name | Type |
      | -------------- | ---------------- | ---- |
@@ -163,20 +163,20 @@ Another feature of a managed environment is the ability to utilize the in-platfo
   this reason, some tenants may have multiple host environments.
   
 
-5. Select **OTU CNE** to open a detailed view for the environment.
+3. Select **OTU CNE** to open a detailed view for the environment.
 
     ![](../images/M02-1/otu-1.png)
 
-6. In the **Details** pane, select **Edit.**
+4. In the **Details** pane, select **Edit.**
 
     ![](../images/M02-1/edit.png)
   
-7. Clear out the existing name and replace it with **Thrive Hr - Host (1)** to remain in line with the naming convention of the other environments and select **Save (2)**.
+5. Clear out the existing name and replace it with **Thrive Hr - Host (1)** to remain in line with the naming convention of the other environments and select **Save (2)**.
 
     ![](../images/M02-1/save.png)
 
 
-8. To finish up the setup, you will need to enable managed environments for each of the associated environments in the pipeline. Navigate back to the **Environments** page with the
+6. To finish up the setup, you will need to enable managed environments for each of the associated environments in the pipeline. Navigate back to the **Environments** page with the
    breadcrumbs at the top or the left side navigation.
 
     ![](../images/M02-1/environment.png)
@@ -185,33 +185,33 @@ Another feature of a managed environment is the ability to utilize the in-platfo
 
     ![](../images/M02-1/dev.png)
 
-11. For the purposes of this lab, we will not be configuring each of the associated environments for other features (e.g., Limit Sharing, Usage insights, etc.). Select **Enable** at the       bottom of the panel.
+7. For the purposes of this lab, we will not be configuring each of the associated environments for other features (e.g., Limit Sharing, Usage insights, etc.). Select **Enable** at the       bottom of the panel.
 
-    ![](../images/M02/env1.png)
+    ![](../images/M02-1/environment.png)
 
-12. Repeat this process for **Thrive Hr - Prod** and **Thrive Hr - Test** environments in the setup .
+8. Repeat this process for **Thrive Hr - Prod** and **Thrive Hr - Test** environments in the setup .
 
-13. Now, you need to install the pipelines app onto the host environment. In the Resources Panel, select **Dynamics 365 apps.** A list of apps currently installed for the environment will     appear.
+9. Now, you need to install the pipelines app onto the host environment. In the Resources Panel, select **Dynamics 365 apps.** A list of apps currently installed for the environment will     appear.
   
     ![](../images/M02-1/dynamics-365.png)
 
-14. Select **Install App** from the ribbon at the top.
+10. Select **Install App** from the ribbon at the top.
 
      ![](../images/M02-1/install-app.png)
 
-15. Scroll down to locate **Power Platform Pipelines (1)** and select the name, then click on **Next (2)**.
+11. Scroll down to locate **Power Platform Pipelines (1)** and select the name, then click on **Next (2)**.
 
     ![](../images/M02-1/pipeline.png)
 
-17. Select the **checkbox (1)** to agree to the Terms of Service, then select **Install (2)**.
+12. Select the **checkbox (1)** to agree to the Terms of Service, then select **Install (2)**.
 
     ![](../images/M02-1/instal-pipeline.png)
 
-18. Confirm that the app is being installed onto the environment by checking that the **Status** reads as **Installing**.
+13. Confirm that the app is being installed onto the environment by checking that the **Status** reads as **Installing**.
 
     ![](../images/M02-1/status.png)
 
-19. **Do not navigate away from this page.**
+14. **Do not navigate away from this page.**
 
 
 
@@ -244,11 +244,11 @@ Another feature of a managed environment is the ability to utilize the in-platfo
 
    ![](../images/M02-1/deployment-pipeline-configuration.png)
 
-9. Select **Environments (1)** on the left pane, and then click on **+ New** symbol.
+8. Select **Environments (1)** on the left pane, and then click on **+ New** symbol.
 
    ![](../images/M02-1/new-deployment.png)
 
-10. You’ll need to add the Dev, Test, and Prod environments as our deployment environments to create the environment records in Dataverse:
+9. You’ll need to add the Dev, Test, and Prod environments as our deployment environments to create the environment records in Dataverse:
 
           Name : **Thrive Hr - Dev (1)**
 
@@ -258,7 +258,7 @@ Another feature of a managed environment is the ability to utilize the in-platfo
 
      ![](../images/M02-1/dev-deployment-env2.png)
 
-11. Select **Save**.
+10. Select **Save**.
 
     ![](../images/M02-1/save.png)
 
@@ -289,53 +289,54 @@ Another feature of a managed environment is the ability to utilize the in-platfo
 
    ![](../images/M02-1/pipeline-name.png)
 
-5. Now we need to add the environments we've created to the pipeline. In the **Linked Developments** section, Select **Add Existing Deployment Environment**.
+3. Now we need to add the environments we've created to the pipeline. In the **Linked Developments** section, Select **Add Existing Deployment Environment**.
 
    ![](../images/M02-1/linked-dep.png)
 
-6. Select the **Thrive HR - Dev** to add the environments to the list and clcik on **Add**.
+4. Select the **Thrive HR - Dev** to add the environments to the list and clcik on **Add**.
 
    ![](../images/M02-1/linked-dev.png)
 
-7. Locate the **Deployment Stages (Deployment Pipeline)** section, select **New Deployment stage.**
+5. Locate the **Deployment Stages (Deployment Pipeline)** section, select **New Deployment stage.**
 
    ![](../images/M02-1/new-dep-stage.png)
 
-8. Set the **Name** to **Deploy to Test (1).**
+6. Set the **Name** to **Deploy to Test (1).**
 
-9. Set the **Description** to **Deploy the completed development content to the Test phase (2).**
+7. Set the **Description** to **Deploy the completed development content to the Test phase (2).**
 
-10. Since this is the first stage of our deployment, the **Previous Deployment Stage** field will be left
+8. Since this is the first stage of our deployment, the **Previous Deployment Stage** field will be left
     blank for this one.
 
-11. Set the **Target Development Environment** to the **Thrive HR - Test (3).**
+9. Set the **Target Development Environment** to the **Thrive HR - Test (3).**
 
-12. Leave the predeployment condition unselected. To learn more about predeployment conditions,
+10. Leave the predeployment condition unselected. To learn more about predeployment conditions,
     follow this link.
 
-13. Confirm that your setup reflects the image below.
+11. Confirm that your setup reflects the image below.
 
     ![](../images/M02-1/deploy-to-test.png)
 
-14. Select the arrow next to **Save and Close** and select **Save and Create New.**
+12. Select the arrow next to **Save and Close** and select **Save and Create New.**
 
     ![](../images/M02-1/create-new.png)
 
-15. Set the **Name** to **Deploy to Prod (1).**
+13. Set the **Name** to **Deploy to Prod (1).**
 
-16. Set the **Description** to **Deploy the completed development content to the Production phase (2).**
+14. Set the **Description** to **Deploy the completed development content to the Production phase (2).**
 
-17. Set the **Previous Deployment Step** to **Deploy to Test (3)**
+15. Set the **Previous Deployment Step** to **Deploy to Test (3)**
 
-18. Set the **Target Development Environment** to the **Thrive HR - Prod (4).**
+16. Set the **Target Development Environment** to the **Thrive HR - Prod (4).**
 
-19. Select **Save and Close (5)**.
+17. Select **Save and Close (5)**.
 
-20. Confirm that your setup reflects the image below.
+18. Confirm that your setup reflects the image below.
 
     ![](../images/M02-1/deploy-to-prod.png)
 
-21. Do not navigate away from this page.
+19. Do not navigate away from this page.
+
 
 #### Task 2: Run the pipeline
 
@@ -349,50 +350,50 @@ Another feature of a managed environment is the ability to utilize the in-platfo
 
    ![](../images/M02-1/import.png)
 
-5. Select Browse and locate ‘ **PipelineExample_1_0_0_1.zip** ’**.**
+4. Select Browse and locate ‘ **PipelineExample_1_0_0_1.zip** ’**.**
 
-6. Select **Next.**
+5. Select **Next.**
 
-7. Review the details and select **Import**. This is the solution we will be deploying through our pipeline. Any solutions sent through a pipeline must be unmanaged.
+6. Review the details and select **Import**. This is the solution we will be deploying through our pipeline. Any solutions sent through a pipeline must be unmanaged.
 
    ![](../images/M02-1/import-1.png)
 
-8. Once the solution has been imported, select it from the available solutions.
+7. Once the solution has been imported, select it from the available solutions.
 
    ![](../images/M02-1/pipeline-example.png)
 
-9. Select **Pipelines** from the left side navigation. From here we can view the current deployment stage, and what stage we will be deploying to next.
+8. Select **Pipelines** from the left side navigation. From here we can view the current deployment stage, and what stage we will be deploying to next.
 
    ![](../images/M02-1/solution-pipeline.png)
 
-10. Select **Deploy here**.
+9. Select **Deploy here**.
 
     ![](../images/M02-1/deploy-1.png)
 
-11. This is where you can schedule deployments or deploy immediately. Set the deployment schedule to **Now** and select **Next.**
+10. This is where you can schedule deployments or deploy immediately. Set the deployment schedule to **Now** and select **Next.**
 
     ![](../images/M02-1/deploy-2.png)
 
-12. Add any appropriate deployment notes and select **Deploy.**
+11. Add any appropriate deployment notes and select **Deploy.**
 
     ![](../images/M02-1/deploy-3.png)
 
-13. The solution is now being processed, validated, and deployed to the Thrive Hr - Test environment.
+12. The solution is now being processed, validated, and deployed to the Thrive Hr - Test environment.
 
     ![](../images/M02-1/deploy-4.png)
 
-14. Once the deployment is complete, the option to deploy to production appears. Select **Deploy** **here** for the **Deploy to Prod** stage.
+13. Once the deployment is complete, the option to deploy to production appears. Select **Deploy** **here** for the **Deploy to Prod** stage.
 
     ![](../images/M02-1/deploy-5.png)
 
-15. This time, we'll schedule the deployment. To do so, select **Later** from the radial menu, and set the deployment time closest to your current time (ex. Your current time is 4:53 PM, 
+14. This time, we'll schedule the deployment. To do so, select **Later** from the radial menu, and set the deployment time closest to your current time (ex. Your current time is 4:53 PM, 
     select 5:00  PM. then select **Next.**
 
     ![](../images/M02-1/deploy-6.png)
 
-16. Review any details and optionally add deployment notes, then select **Deploy.**
+15. Review any details and optionally add deployment notes, then select **Deploy.**
 
-17. If needed, administrators can change the time of or cancel a deployment from this screen by selecting the **Cancel Deployment** button, or by selecting the Run History tab, and 
+16. If needed, administrators can change the time of or cancel a deployment from this screen by selecting the **Cancel Deployment** button, or by selecting the Run History tab, and 
     selecting the three dots next to the Start time. From here, you can also view the run information, such as any notes or comments.
 
     ![](../images/M02-1/deploy-7.png)
@@ -400,20 +401,20 @@ Another feature of a managed environment is the ability to utilize the in-platfo
      ![](../images/M02-1/deploy-8.png)
 
 
-19. Administrations can also make changes to the run record from the Deployment Pipeline Configuration app, such as altering the starting time and deployment notes. Return to the 
+17. Administrations can also make changes to the run record from the Deployment Pipeline Configuration app, such as altering the starting time and deployment notes. Return to the 
     **Deployment Pipeline Configuration App** in the host environment and select **Run history**.
 
     ![](../images/M02-1/deploy-9.png)
 
-20. Select the scheduled deployment and select **Edit** at the top right.
+18. Select the scheduled deployment and select **Edit** at the top right.
 
     ![](../images/M02-1/deploy-10.png)
 
-21. Locate the **Scheduled Time** and select the clock next to the selected time.
+19. Locate the **Scheduled Time** and select the clock next to the selected time.
 
     ![](../images/M02-1/deploy-11.png)
 
-22. Select the new time, and then select **Save and Close.**
+20. Select the new time, and then select **Save and Close.**
 
     ![](../images/M02-1/deploy-12.png)
 
