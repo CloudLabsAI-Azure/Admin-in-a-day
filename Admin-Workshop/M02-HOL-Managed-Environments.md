@@ -144,41 +144,34 @@ Another feature of a managed environment is the ability to utilize the in-platfo
 
 1. Navigate to Power Platform admin center by using below URL and select environments if not already opened.
 
-     ```
-      https://admin.powerplatform.microsoft.com/environments
+    ```
+    https://admin.powerplatform.microsoft.com/environments
+    ```
 
-     ```.
+3. For this lab, we will use this structure for our environments, following the guidelines for Application Lifecycle Management (ALM).
 
-3. For this lab, we will use this structure for our environments, following the guidelines for
-    Application Lifecycle Management (ALM).
-       a.
-          **Pipeline Stage Environment Name Type**
+     | Pipeline Stage | Environment Name | Type |
+     | -------------- | ---------------- | ---- |
+     | Host           | OTU WA CNE <inject key="Deployment ID" enableCopy="false"/>      | Default |
+     | Development    | Thrive Hr        | Dev Sandbox |
+     | Test           | Thrive Hr - Test | Sandbox |
+     | Production     | Thrive Hr- prod  | Production |
+   
 
-        ```
-        OTU WA CNE Default
-        ```
-        ```
-        Development Thrive Hr - Dev Sandbox
-        ```
-        ```
-        Test Thrive Hr - Test Sandbox
-        ```
-        ```
-        Production Thrive Hr - Prod Production
-        ```
-      ```
-      Host Environments act as storage and management for pipeline configurations, run histories, and security settings. Should this environment be deleted, all pipelines and run data           will be deleted as well and cannot be recovered. Host environments can only have development and target environments that exist within the same region as the host environment. For         this reason, some tenants may have multiple host environments.
-      ```
+  
+  >*Note:* Host Environments act as storage and management for pipeline configurations, run histories, and security settings. Should this environment be deleted, all pipelines and run        data will be deleted as well and cannot be recovered. Host environments can only have development and target environments that exist within the same region as the host environment. For 
+  this reason, some tenants may have multiple host environments.
+  
 
-4. Select **OTU CNE** to open a detailed view for the environment.
+5. Select **OTU CNE** to open a detailed view for the environment.
 
     ![](../images/M02-1/otu-1.png)
 
-5. In the **Details** pane, select **Edit.**
+6. In the **Details** pane, select **Edit.**
 
     ![](../images/M02-1/edit.png)
   
-6. Clear out the existing name and replace it with **Thrive Hr - Host (1)** to remain in line with the naming convention of the other environments and select **Save (2)**.
+7. Clear out the existing name and replace it with **Thrive Hr - Host (1)** to remain in line with the naming convention of the other environments and select **Save (2)**.
 
     ![](../images/M02-1/save.png)
 
