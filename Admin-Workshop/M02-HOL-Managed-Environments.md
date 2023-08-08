@@ -152,8 +152,8 @@ Another feature of a managed environment is the ability to utilize the in-platfo
 
      | Pipeline Stage | Environment Name | Type |
      | -------------- | ---------------- | ---- |
-     | Host           | OTU WA CNE <inject key="Deployment ID" enableCopy="false"/>      | Default |
-     | Development    | Thrive Hr        | Dev Sandbox |
+     | Host           | OTU WA CNE <inject key="Deployment ID" enableCopy="false"/> | Default |
+     | Development    | Thrive Hr - Dev  |  Sandbox |
      | Test           | Thrive Hr - Test | Sandbox |
      | Production     | Thrive Hr- prod  | Production |
    
