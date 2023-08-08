@@ -11,6 +11,10 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/Admin-Workshop/M02-HOL-Managed-Environments.md",
         "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/Admin-Workshop/M03-HOL-Monitor.md",
+        "Order": 3
       }
     ]
   }
