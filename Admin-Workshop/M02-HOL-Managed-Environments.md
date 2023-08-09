@@ -254,11 +254,11 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 9. You’ll need to add the Dev, Test, and Prod environments as our deployment environments to create the environment records in Dataverse:
 
-          Name : **Thrive Hr - Dev (1)**
+    a. Name : **Thrive Hr - Dev (1)**
 
-          Environment Type : **Development Environment (2)**
+    b. Environment Type : **Development Environment (2)**
 
-          Environment Id : Paste the **Environment ID (3)** you copied from earlier here.
+    c. Environment Id : Paste the **Environment ID (3)** you copied from earlier here.
 
      ![](../images/M02-1/dev-deployment-env2.png)
 
