@@ -9,21 +9,21 @@
 
 1. Exercise 1 - Admin Analytics for Power Apps
 
-   **Scenario**
+   **About**
    
    - Task 1: Explore the Power Apps analytics
 
 
 2. Exercise 2 – Tenant-level analytics
 
-   **Scenario**
+   **About**
    
    - Task 1: Enable tenant-level analytics
 
   
 ## Exercise 1: Admin Analytics for Power Apps
 
-### Scenario
+### About
 
 Analytics for the environment admin is available at the Microsoft Power Platform admin center. The admin reports provide a view into environment level usage, errors, service performance to drive governance, and change management services to users. These reports are available for canvas apps only and not available for model-driven apps
 
@@ -73,7 +73,7 @@ Analytics for the environment admin is available at the Microsoft Power Platform
 
 ## Exercise 2: Tenant-level analytics
 
-### Scenario
+### About
 
 In this exercise, you will be enabling the tenant level analytics. 
 
