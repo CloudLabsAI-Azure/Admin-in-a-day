@@ -40,7 +40,9 @@ organization to break down geographic and organizational silos.
 
     ![](../images/M04-1/pphub.png)
 
-5. Open the **Deploy-PowerPlatformHub.ps1** file from left navigation and make the below changes and save the file.
+   **Note:** PowerPlatformHub file download is done as part of pre-requisit.
+
+6. Open the **Deploy-PowerPlatformHub.ps1** file from left navigation and make the below changes and save the file.
 
      a. Rename the **adminTenantName** with **otuwacne<inject key="Deployment ID" enableCopy="false"/>**
 
