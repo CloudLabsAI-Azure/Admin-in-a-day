@@ -4,21 +4,25 @@
     "Name": "Admin in a Day ( Power Platform Governance workshop )",
     "Language": "English",
     "Files": [
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M01-HOL_Securing_your_tenant.md",
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/Admin-Workshop/01GettingStarted.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/Admin-Workshop/M02-HOL-Managed-Environments.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M01-HOL_Securing_your_tenant.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/Admin-Workshop/M03-HOL-Monitor.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/Admin-Workshop/M02-HOL-Managed-Environments.md",
         "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/Admin-Workshop/M03-HOL-Monitor.md",
+        "Order": 4
       },
        {
         "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/Admin-Workshop/M04-HOL-Empower.md",
-        "Order": 4
+        "Order": 5
       }
     ]
   }
