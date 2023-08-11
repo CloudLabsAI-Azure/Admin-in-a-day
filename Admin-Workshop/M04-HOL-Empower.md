@@ -58,7 +58,7 @@ organization to break down geographic and organizational silos.
 
      a. Rename the **newSiteURL** with **https://otuwacne<inject key="Deployment ID" enableCopy="false"/>.sharepoint.com/sites/powerplatformhub/SitePages/Data-Loss-Prevention-(DLP)-Policies.aspx**
 
-     b. Rename the **supportEmail** with **otuwacne<inject key="Deployment ID" enableCopy="false"/>**
+     b. Rename the **supportEmail** with **<inject key="AzureAdUserEmail"></inject>**
 
      c. Rename the **tenantId** with ****
 
@@ -74,7 +74,9 @@ organization to break down geographic and organizational silos.
 
      ![](../images/M04-1/pphub-site.png)
 
-13. Navigate to the site url by selecting it and click on open to visit the site.
+    **Note**: Select **A** Yes to All if it asked for untrusted repository.
+
+14. Navigate to the site url by selecting it and click on open to visit the site.
 
      ![](../images/M04-1/pphub-site1.png)
 
