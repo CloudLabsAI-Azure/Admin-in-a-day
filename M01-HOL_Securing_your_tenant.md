@@ -255,6 +255,7 @@ Environments and data policies after exercise #2:
      ![](images/M01-1/image32.png)
      
 5. In the **“Prebuilt connectors”** section of the wizard, place Microsoft’s 1st party connectors in **“Business”**.
+
     a. From the **“Non-business (849) | Default”** category, click the **“Blockable”** column.
     
     b. Under **“Filter by column value”**, click **“No”**.
