@@ -21,9 +21,9 @@
 
 5. Now enter the following **password**  and click on **Sign in**. 
 
-   * Password: <inject key="AzureAdUserPassword"></inject>
+    * Password: <inject key="AzureAdUserPassword"></inject>
   
-   ![](../images/M01-1/password.png)
+    ![](../images/M01-1/password.png)
 
 6.  Once logged in, click on **Environment** and select the default environment named **OTU WA CNE<inject key="Deployment ID" enableCopy="false" />**.
 
