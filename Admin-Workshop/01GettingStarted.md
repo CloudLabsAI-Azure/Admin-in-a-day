@@ -19,7 +19,7 @@
 
    ![](../images/M01-1/sign-in.png)
 
-5.  Now enter the following **password**  and click on **Sign in**. 
+5. Now enter the following **password**  and click on **Sign in**. 
 
    * Password: <inject key="AzureAdUserPassword"></inject>
   
