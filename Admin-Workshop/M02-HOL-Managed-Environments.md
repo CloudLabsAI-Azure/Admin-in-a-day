@@ -354,7 +354,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
    ![](../images/M02-1/import.png)
 
-4. Select Browse and locate ‘ **PipelineExample_1_0_0_1.zip** ’**.**
+4. Select Browse and locate  **PipelineExample_1_0_0_1.zip** in **Labfiles**
 
 5. Select **Next.**
 
