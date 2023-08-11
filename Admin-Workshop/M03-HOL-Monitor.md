@@ -71,11 +71,13 @@ Analytics for the environment admin is available at the Microsoft Power Platform
     ![](../images/M03/env-apply.png)
 
 
-## Exercise 2: Tenant-level analytics
+## Exercise 2: Tenant-level analytics (Read Only)
 
 ### About
 
-In this exercise, you will be enabling the tenant level analytics. 
+In this exercise, you will be enabling the tenant level analytics.
+
+>**Note:** No need to perform this exercise as we have already enabled the tenant-level analytics, you can go through the enabling process.
 
 ### Task 1: Enable tenant-level analytics
 
