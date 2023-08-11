@@ -44,9 +44,9 @@ organization to break down geographic and organizational silos.
 
 6. Open the **Deploy-PowerPlatformHub.ps1** file from left navigation and make the below changes and save the file.
 
-     a. Rename the **adminTenantName** with **otuwacne<inject key="Deployment ID" enableCopy="false"/>**
+     a. Rename the **adminTenantName** with **<inject key="GET-TENANT-FQDN"></inject>**
 
-    b. Rename the **companyName** with **otuwacne<inject key="Deployment ID" enableCopy="false"/>**
+    b. Rename the **companyName** with **<inject key="GET-TENANT-FQDN"></inject>**
 
     c. Rename the **ownerEmail** with **<inject key="AzureAdUserEmail"></inject>**
 
@@ -60,7 +60,7 @@ organization to break down geographic and organizational silos.
 
      b. Rename the **supportEmail** with **<inject key="AzureAdUserEmail"></inject>**
 
-     c. Rename the **tenantId** with ****
+     c. Rename the **tenantId** with **<inject key="Tenant ID"></inject>**
 
 10.  Once You have updated the file, image should look like below.
 
