@@ -252,10 +252,6 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
      ![](../images/M02-1/dev-deployment-env2.png)
 
-10. Select **Save**.
-
-    ![](../images/M02-1/save.png)
-
 11. Select **Save and Close**.
 
     ![](../images/M02-1/save-close.png)
