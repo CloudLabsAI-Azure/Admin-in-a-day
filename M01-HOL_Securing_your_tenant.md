@@ -1,4 +1,4 @@
-# Admin in a day
+# Putting Governance in its Place
 
 
 ## M01-HOL-Securing your tenant
