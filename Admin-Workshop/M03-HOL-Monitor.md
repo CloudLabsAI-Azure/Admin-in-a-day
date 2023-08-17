@@ -31,42 +31,42 @@ Analytics for the environment admin is available at the Microsoft Power Platform
 
 1. Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).   
    
-   a. Reminder: Your credentials are in the **"Environment Details"** tab.
-   
+    a. Reminder: Your credentials are in the **"Environment Details"** tab.
+
     ![](images/M01-1/env-cred.png)
 
-2. To access these reports, select **Analytics > Power Apps**. Reports appear in a menu bar at the top of the page.
+3. To access these reports, select **Analytics > Power Apps**. Reports appear in a menu bar at the top of the page.
 
    ![](../images/M03/powerapps-report.png)
 
-3. **Usage** report is the default reports seen by the logged in environment admin. It provides total app launches and daily active users across all apps in the environment. Admins can  
+4. **Usage** report is the default reports seen by the logged in environment admin. It provides total app launches and daily active users across all apps in the environment. Admins can  
      filter the view with attributes like device platform, player version, country/region, state, and city.
 
      ![](../images/M03/usage-report.png)
 
-4. **Location** report provides a map-based view of usage. It gives an insight into regional adoption and usage trends.
+5. **Location** report provides a map-based view of usage. It gives an insight into regional adoption and usage trends.
 
     ![](../images/M03/location-report.png)
 
-5. **Toast Errors** report provides insights into the toast error trends, types, and counts per app to help drive improvements in app quality. The toast errors are errors displayed to the 
+6. **Toast Errors** report provides insights into the toast error trends, types, and counts per app to help drive improvements in app quality. The toast errors are errors displayed to the 
      end users of the app.
 
      ![](../images/M03/toast-report.png)
 
-6. **Service Performance** report provides details of all standard and custom connectors to understand performance bottlenecks and client versus service API issues.
+7. **Service Performance** report provides details of all standard and custom connectors to understand performance bottlenecks and client versus service API issues.
 
      ![](../images/M03/service-report.png)
 
-7. **Connectors report** provides visibility into the standard and custom connectors being used by canvas apps. The last 28 days of data are visible at the environment level.
+8. **Connectors report** provides visibility into the standard and custom connectors being used by canvas apps. The last 28 days of data are visible at the environment level.
 
      ![](../images/M03/connector-report.png)
 
 
-8. You can also select **Change Filter** or the Filter button (Filter button.) in the upper-right corner of the page to change the environment.
+9. You can also select **Change Filter** or the Filter button (Filter button.) in the upper-right corner of the page to change the environment.
 
     ![](../images/M03/filters.png)
 
-9. Select the environment and time period from the drop-down lists, and then select **Apply** to save the changes. All the Power Apps analytics reports will now use this selection.
+10. Select the environment and time period from the drop-down lists, and then select **Apply** to save the changes. All the Power Apps analytics reports will now use this selection.
 
     ![](../images/M03/env-apply.png)
 
