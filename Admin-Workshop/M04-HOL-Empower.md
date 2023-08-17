@@ -61,13 +61,13 @@ organization to break down geographic and organizational silos.
 
 9. Open the **Set-PowerPlatformHubAsDLPErrorSettings.ps1** file from left navigation and make the below changes and save the file.
 
-     a. Rename the **newSiteURL** with **https://<TenantName>.sharepoint.com/sites/powerplatformhub/SitePages/Data-Loss-Prevention-(DLP)-Policies.aspx**
+     a. Rename the **newSiteURL** with **https://tenantname.sharepoint.com/sites/powerplatformhub/SitePages/Data-Loss-Prevention-(DLP)-Policies.aspx**
 
      b. Rename the **supportEmail** with **<inject key="AzureAdUserEmail"></inject>**
 
      c. Rename the **tenantId** with **<inject key="Tenant ID"></inject>**
 
-   **Note:** Replace the TenantName with the value you copied earlier.
+   **Note:** Replace the tenantname with the value you copied earlier.
 
 11.  Once You have updated the file, image should look like below.
 
