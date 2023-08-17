@@ -67,7 +67,7 @@ organization to break down geographic and organizational silos.
 
      c. Rename the **tenantId** with **<inject key="Tenant ID"></inject>**
 
-   **Note:** Replace the otuwacne with the value you copied earlier.
+   **Note:** Replace the **otuwacne** with the value you copied earlier.
 
 11.  Once You have updated the file, image should look like below.
 
