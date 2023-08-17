@@ -1,7 +1,7 @@
-# Admin in a day
+# Putting Governance in its Place
 
 
-## M02-HOL-Application Lifecycle Management - Managed Environments and Pipeline
+## M02-HOL-Managed Environments – Sharing Limits and Pipelines”
 
 
 ## Table of Contents
@@ -11,7 +11,7 @@
 
    **Scenario**
    
-   - Task 1: Upgrade defualt environment to managed environment
+   - Task 1: Upgrade Default environment to managed environment
 
    - Task 2: Share the Canvas App to users
 
@@ -25,15 +25,6 @@
   
    - Task 3: Run the pipeline
 
-
-
-## Lab Test Environment
-
-This hands-on lab is designed to be completed in an environment setup for multiple students to complete 
-the Admin in a day series of hands-on labs.
-You will be assigned one or more users to use to complete the hands-on tasks. Because this is a shared 
-environment, some tasks that require a tenant Global Administrator or a Service Administrator will already 
-be performed.
         
 
 
@@ -41,10 +32,9 @@ be performed.
 
 ### Scenario
 
-In this exercise, you will be shifting a pre-made environment from an unmanaged state to a managed 
-state. A managed environment can greatly expand the level of control for administrators. 
+In this exercise, you will upgrade an environment to a Managed Environment. A managed environment comes with a suite of capabilities that allows admins to manage at scale with more control, more visibility, and less effort.”
 
-### Task 1: Upgrade defualt environment to managed environment
+### Task 1: Upgrade Default environment to managed environment
 
 1. Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).   
    
@@ -53,7 +43,7 @@ state. A managed environment can greatly expand the level of control for adminis
       ![](../images/M01-1/image5.png)
     
 
-2. Select **Environment (1)** tab from left panel and select the defualt environment named **OTU WA CNE <inject key="Deployment ID" enableCopy="false"/> (2)** and select the three dots to 
+2. Select **Environment (1)** tab from left panel and select the Default environment named **OTU WA CNE <inject key="Deployment ID" enableCopy="false"/> (2)** and select the three dots to 
    view all the ribbon options, then select **Enable managed environment (3)** to start the configuration process for this environment. .
 
     ![](../images/M02/M2-t1-s1.png)   
@@ -61,7 +51,7 @@ state. A managed environment can greatly expand the level of control for adminis
 
 3. Administrators seeking to create or edit managed environments must have the Global Administrator role, Power Platform Administrator role, or the Dynamics 365 admin Azure Active            Directory role. Delegated admins, or Environment Admins will not be able to enable or edit managed environments. At the top of the panel that appears, the system informs you that a 
    particular license is required in order to use the resources. While an unmanaged environment will allow users to interact with resources freely, a managed environment prevents them 
-   from doing so if they do not have the correct license for the respective areas. 
+   from doing so if they do not have the correct license for the respective areas. To learn more about Managed Environment licensing, see [Licensing](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fpower-platform%2Fadmin%2Fmanaged-environment-licensing&data=05%7C01%7Cabhilash.r%40spektrasystems.com%7Cb66b4d860a32451dc5d308db9e70097d%7C6d7e0652b03d4ed2bf86f1999cecde17%7C0%7C0%7C638277976316671495%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=Kg6C6YSZI3XoOEQBG31SK5GDmoizIDP0XzYn67xfaY8%3D&reserved=0) and [Licensing overview for Microsoft Power Platform](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fpower-platform%2Fadmin%2Fpricing-billing-skus&data=05%7C01%7Cabhilash.r%40spektrasystems.com%7Cb66b4d860a32451dc5d308db9e70097d%7C6d7e0652b03d4ed2bf86f1999cecde17%7C0%7C0%7C638277976316671495%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=eRaW6iY%2FBo6V4wLptyfDFMObVLjKsEO%2BaOMHVGBA3GE%3D&reserved=0)”
 
     a. In Limit Sharing, choose **Exclude sharing with security group**s. Once this is enabled, you can restrict the users the app gets shared to.
 
