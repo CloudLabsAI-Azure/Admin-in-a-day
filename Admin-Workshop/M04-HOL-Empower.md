@@ -44,33 +44,40 @@ organization to break down geographic and organizational silos.
 
 6. Open the **Deploy-PowerPlatformHub.ps1** file from left navigation and make the below changes and save the file.
 
-     a. Rename the **adminTenantName** with **<inject key="GET-TENANT-FQDN"></inject>**
+    a. Rename the **adminTenantName** with **TenantName**
 
-    b. Rename the **companyName** with **<inject key="GET-TENANT-FQDN"></inject>**
+    b. Rename the **companyName** with **TenantName**
 
     c. Rename the **ownerEmail** with **<inject key="AzureAdUserEmail"></inject>**
 
-7. Once You have updated the file, image should look like below.
+   **Note:** You can get the tenantname by navigating to Azure Portal, select the Azure Active Directory and copy the domain name like otuwacne<ID> in overview tab. ID will be random for 
+   each tenant.
+
+     ![](../images/M04-1/aad.png)
+
+8. Once You have updated the file, image should look like below.
 
     ![](../images/M04-1/deploy-pphub.png)
 
-8. Open the **Set-PowerPlatformHubAsDLPErrorSettings.ps1** file from left navigation and make the below changes and save the file.
+9. Open the **Set-PowerPlatformHubAsDLPErrorSettings.ps1** file from left navigation and make the below changes and save the file.
 
-     a. Rename the **newSiteURL** with **https://otuwacne<inject key="GET-TENANT-FQDN">.sharepoint.com/sites/powerplatformhub/SitePages/Data-Loss-Prevention-(DLP)-Policies.aspx**
+     a. Rename the **newSiteURL** with **https://<TenantName>.sharepoint.com/sites/powerplatformhub/SitePages/Data-Loss-Prevention-(DLP)-Policies.aspx**
 
      b. Rename the **supportEmail** with **<inject key="AzureAdUserEmail"></inject>**
 
      c. Rename the **tenantId** with **<inject key="Tenant ID"></inject>**
 
-10.  Once You have updated the file, image should look like below.
+   **Note:** Replace the <TenantName> with the value you copied earlier.
+
+11.  Once You have updated the file, image should look like below.
 
      ![](../images/M04-1/deploy-pphub.png)
 
-11. Now, clcik on Terminal and select **New Terminal**
+12. Now, clcik on Terminal and select **New Terminal**
  
     ![](../images/M04-1/terminal.png)
 
-12. In the terminal window run the command **.\Deploy-PowerPlatformHub.ps1**, a new login window will pop-up, provide the login credentials and click on **Accept** to accept the 
+13. In the terminal window run the command **.\Deploy-PowerPlatformHub.ps1**, a new login window will pop-up, provide the login credentials and click on **Accept** to accept the 
     permissions and once the template deployment is finished you will get a **Success** message and **site url**.
 
      ![](../images/M04-1/pphub-site.png)
