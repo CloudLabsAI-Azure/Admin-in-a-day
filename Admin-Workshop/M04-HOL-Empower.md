@@ -70,7 +70,8 @@ organization to break down geographic and organizational silos.
  
     ![](../images/M04-1/terminal.png)
 
-12. In the terminal window run the command **.\Deploy-PowerPlatformHub.ps1** and once the template deployment is finished you will get a **Success** message and **site url**.
+12. In the terminal window run the command **.\Deploy-PowerPlatformHub.ps1**, a new login window will pop-up, provide the login credentials and click on **Accept** to accept the 
+    permissions and once the template deployment is finished you will get a **Success** message and **site url**.
 
      ![](../images/M04-1/pphub-site.png)
 
