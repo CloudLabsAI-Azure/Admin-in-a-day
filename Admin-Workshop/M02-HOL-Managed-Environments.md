@@ -106,7 +106,7 @@ In this exercise, you will upgrade an environment to a Managed Environment. A ma
 
    ![](../images/M02/lab-user01.png)
      
-6. Repeat this process two more times until you have three users to add and select **Share**.
+6. Repeat this process two more times until you have four users to add and select **Share**.
 
    ![](../images/M02/share.png)
 
