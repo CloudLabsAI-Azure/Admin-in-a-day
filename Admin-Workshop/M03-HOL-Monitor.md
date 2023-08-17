@@ -33,7 +33,7 @@ Analytics for the environment admin is available at the Microsoft Power Platform
    
    a. Reminder: Your credentials are in the **"Environment Details"** tab.
    
-      ![](images/M01-1/env-cred.png)
+    ![](images/M01-1/env-cred.png)
 
 2. To access these reports, select **Analytics > Power Apps**. Reports appear in a menu bar at the top of the page.
 
