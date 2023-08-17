@@ -56,7 +56,7 @@ organization to break down geographic and organizational silos.
 
 8. Open the **Set-PowerPlatformHubAsDLPErrorSettings.ps1** file from left navigation and make the below changes and save the file.
 
-     a. Rename the **newSiteURL** with **https://otuwacne<inject key="Deployment ID" enableCopy="false"/>.sharepoint.com/sites/powerplatformhub/SitePages/Data-Loss-Prevention-(DLP)-Policies.aspx**
+     a. Rename the **newSiteURL** with **https://otuwacne<inject key="GET-TENANT-FQDN">.sharepoint.com/sites/powerplatformhub/SitePages/Data-Loss-Prevention-(DLP)-Policies.aspx**
 
      b. Rename the **supportEmail** with **<inject key="AzureAdUserEmail"></inject>**
 
