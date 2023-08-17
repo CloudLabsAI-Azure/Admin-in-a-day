@@ -50,7 +50,7 @@ organization to break down geographic and organizational silos.
 
     c. Rename the **ownerEmail** with **<inject key="AzureAdUserEmail"></inject>**
 
-   **Note:** You can get the tenantname by navigating to Azure Portal, select the Azure Active Directory and copy the domain name like otuwacne<ID> in overview tab. ID will be random for 
+   **Note:** You can get the tenantname by navigating to Azure Portal, select the Azure Active Directory and copy the domain name like otuwacneID in overview tab. ID will be random for 
    each tenant.
 
      ![](../images/M04-1/aad.png)
@@ -67,7 +67,7 @@ organization to break down geographic and organizational silos.
 
      c. Rename the **tenantId** with **<inject key="Tenant ID"></inject>**
 
-   **Note:** Replace the <TenantName> with the value you copied earlier.
+   **Note:** Replace the TenantName with the value you copied earlier.
 
 11.  Once You have updated the file, image should look like below.
 
