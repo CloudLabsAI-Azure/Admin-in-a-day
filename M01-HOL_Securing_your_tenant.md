@@ -240,7 +240,7 @@ Environments and data policies after exercise #2:
    
    a. Reminder: Your credentials are in the **“Environment Details”** tab.
    
-   ![](images/M01-1/image30.png)
+   ![](images/M01-1/env-cred.png)
     
 2. Enter the **“Data policies”** page under the **“Policies”** section of the admin center’s left nav.
     
@@ -384,7 +384,7 @@ Environments and data policies after exercise #3:
     
     a. Reminder: Your credentials are in the **“Environment Details”** tab.
     
-    ![](images/M01-1/image5.png)
+    ![](images/M01-1/env-cred.png)
     
 2. Enter the **“Data policies”** page under the **“Policies”** section of the admin center’s left nav.
     
@@ -470,7 +470,7 @@ Environments and data policies after exercise #3:
     
      ![](images/M01-1/image5.png)
      
-     ![](images/M01-1/image68.png)
+     ![](images/M01-1/env-cred.png)
      
 2. Go to the **“My flows”** section in the left nav and create a new cloud flow named **“DLP – Exercise 2 – Task 2”**.
     
@@ -502,7 +502,7 @@ Environments and data policies after exercise #3:
     
     a. Reminder: Your credentials are in the **“Environment Details”** tab.
     
-    ![](images/M01-1/image5.png)
+    ![](images/M01-1/env-cred.png)
 
 
 2. Locate the HTTP connector in the **“Non-business”** category.
