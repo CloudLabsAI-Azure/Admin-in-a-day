@@ -11,7 +11,7 @@
 
    **Scenario**
    
-   - Task 1: Upgrade Default environment to managed environment
+   - Task 1: Upgrade default environment to managed environment
 
    - Task 2: Share the Canvas App to users
 
@@ -34,7 +34,7 @@
 
 In this exercise, you will upgrade an environment to a Managed Environment. A managed environment comes with a suite of capabilities that allows admins to manage at scale with more control, more visibility, and less effort.”
 
-### Task 1: Upgrade Default environment to managed environment
+### Task 1: Upgrade default environment to managed environment
 
 1. Go to the Power Platform admin center using your tenant administrator credentials (https://aka.ms/ppac).   
    
@@ -43,7 +43,7 @@ In this exercise, you will upgrade an environment to a Managed Environment. A ma
       ![](../images/M01-1/env-cred.png)
     
 
-2. Select **Environment (1)** tab from left panel and select the Default environment named **OTU WA CNE <inject key="Deployment ID" enableCopy="false"/> (2)** and select the three dots to 
+2. Select **Environment (1)** tab from left panel and select the default environment named **OTU WA CNE <inject key="Deployment ID" enableCopy="false"/> (2)** and select the three dots to 
    view all the ribbon options, then select **Enable managed environment (3)** to start the configuration process for this environment. .
 
     ![](../images/M02/M2-t1-s1.png)   
