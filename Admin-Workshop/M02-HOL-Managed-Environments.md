@@ -252,13 +252,15 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
      ![](../images/M02-1/dev-deployment-env2.png)
 
-11. Select **Save and Close**.
+10. Select **Save**
 
-    ![](../images/M02-1/save-close.png)
-
-12. **Refresh (1)** the form, then verify **Validation Status** equals **Success (2)**.
+11. **Refresh (1)** the form, then verify **Validation Status** equals **Success (2)**.
 
     ![](../images/M02-1/validation.png)
+
+12. Select **Save and Close**.
+
+    ![](../images/M02-1/save-close.png)
 
 13. Repeat steps 3-11 for **Thrive Hr - Test** and **Thrive Hr - Prod,** setting the type as **Target Environment** respectively.
 
