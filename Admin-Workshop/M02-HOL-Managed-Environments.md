@@ -40,7 +40,7 @@ In this exercise, you will upgrade an environment to a Managed Environment. A ma
    
    a. Reminder: Your credentials are in the **"Environment Details"** tab.
    
-      ![](../images/M01-1/image5.png)
+      ![](images/M01-1/env-cred.png)
     
 
 2. Select **Environment (1)** tab from left panel and select the Default environment named **OTU WA CNE <inject key="Deployment ID" enableCopy="false"/> (2)** and select the three dots to 
