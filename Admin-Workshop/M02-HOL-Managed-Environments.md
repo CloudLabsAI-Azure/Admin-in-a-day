@@ -332,7 +332,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 19. Do not navigate away from this page.
 
 
-#### Task 2: Run the pipeline
+#### Task 3: Run the pipeline
 
 1. Navigate to Power Apps in a new tab.
 
