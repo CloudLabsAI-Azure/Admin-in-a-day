@@ -3,15 +3,15 @@
 
 1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
 
-    ![](../images/M01-1/vm.png)
+    ![](../images/M01-1/getstart-vm.png)
 
 2. To get the lab environment details, you can select **Environment Details** tab. Additionally, the credentials will also be sent to your email address provided during registration.
 
-    ![](../images/M01-1/env-details.png)
+    ![](../images/M01-1/getstart-env.png)
 
 3. In the JumpVM, click on **Power Apps** portal shortcut of Microsoft Edge browser that is available on desktop.
 
-    ![](../images/M01-1/portal.png)
+    ![](../images/M01-1/getstart-pp.png)
 
 4. On the **Sign in** window, you will see the login screen, enter the following username  and click on **Next**.
 
