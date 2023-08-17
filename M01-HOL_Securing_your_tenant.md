@@ -468,7 +468,6 @@ Environments and data policies after exercise #3:
 
     b. Reminder: Your credentials are in the **“Environment Details”** tab.
     
-     ![](images/M01-1/image5.png)
      
      ![](images/M01-1/env-cred.png)
      
