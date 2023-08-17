@@ -50,7 +50,7 @@ organization to break down geographic and organizational silos.
 
     c. Rename the **ownerEmail** with **<inject key="AzureAdUserEmail"></inject>**
 
-   **Note:** You can get the tenantname by navigating to Azure Portal, select the Azure Active Directory and copy the domain name like otuwacneID in overview tab. ID will be random for 
+   **Note:** You can get the tenantname by navigating to Azure Portal, select the Azure Active Directory and copy the domain name like otuwacne in overview tab. ID will be random for 
    each tenant.
 
      ![](../images/M04-1/aad.png)
@@ -61,13 +61,13 @@ organization to break down geographic and organizational silos.
 
 9. Open the **Set-PowerPlatformHubAsDLPErrorSettings.ps1** file from left navigation and make the below changes and save the file.
 
-     a. Rename the **newSiteURL** with **https://tenantname.sharepoint.com/sites/powerplatformhub/SitePages/Data-Loss-Prevention-(DLP)-Policies.aspx**
+     a. Rename the **newSiteURL** with **https://otuwacne.sharepoint.com/sites/powerplatformhub/SitePages/Data-Loss-Prevention-(DLP)-Policies.aspx**
 
      b. Rename the **supportEmail** with **<inject key="AzureAdUserEmail"></inject>**
 
      c. Rename the **tenantId** with **<inject key="Tenant ID"></inject>**
 
-   **Note:** Replace the tenantname with the value you copied earlier.
+   **Note:** Replace the otuwacne with the value you copied earlier.
 
 11.  Once You have updated the file, image should look like below.
 
