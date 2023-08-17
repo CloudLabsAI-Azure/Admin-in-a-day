@@ -40,7 +40,7 @@ organization to break down geographic and organizational silos.
 
     ![](../images/M04-1/pphub.png)
 
-   **Note:** PowerPlatformHub file download is done as part of pre-requisit.
+   **Note:** PowerPlatformHub file download is done as part of pre-requisite.
 
 6. Open the **Deploy-PowerPlatformHub.ps1** file from left navigation and make the below changes and save the file.
 
