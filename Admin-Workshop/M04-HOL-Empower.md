@@ -73,7 +73,7 @@ organization to break down geographic and organizational silos.
 
      ![](../images/M04-1/deploy-pphub.png)
 
-12. Now, clcik on Terminal and select **New Terminal**
+12. Now, click on Terminal and select **New Terminal**
  
     ![](../images/M04-1/terminal.png)
 
