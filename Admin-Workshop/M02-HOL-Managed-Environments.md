@@ -1,7 +1,7 @@
 # Putting Governance in its Place
 
 
-## M02-HOL-Managed Environments – Sharing Limits and Pipelines”
+## M02-HOL-Managed Environments – Sharing Limits and Pipelines
 
 
 ## Table of Contents
