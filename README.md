@@ -1,2 +1,2 @@
-# Admin-in-a-day
-Admin in a Day ( Power Platform Governance workshop)
+# Putting Governance in its Place
+Putting Governance in its Place ( Power Platform Governance workshop)

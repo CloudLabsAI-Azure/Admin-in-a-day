@@ -1,0 +1,33 @@
+
+[
+  {
+    "Name": "Admin in a Day ( Power Platform Governance workshop )",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M01-HOL_Securing_your_tenant.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M02-HOL_Monitor.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M03-HOL_Alert_and_Act.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M04-HOL_Deploy.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M05-HOL_Dataverse_for_Teams.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AbhiGowrav/Admin-in-a-day/main/M06-HOL_Dataverse_for_Teams.md",
+        "Order": 6
+      }
+    ]
+  }
+]
