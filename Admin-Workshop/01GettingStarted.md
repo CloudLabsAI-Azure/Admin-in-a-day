@@ -1,29 +1,52 @@
-# Getting Started with Lab
+# **Getting Started with Your Power Platform Admin in a Day Workshop**
+ 
+Welcome to your Power Platform Admin in a Day workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+ 
+## **Accessing Your Lab Environment**
+ 
+Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
 
+   ![](../images/M01/GS6.png)
 
-1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
+### **Virtual Machine & Lab Guide**
+ 
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+ 
+## **Exploring Your Lab Resources**
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
 
-    ![](../images/M01-1/getstart-vm.png)
+   ![](../images/M01/GS23.png)
+ 
+## **Utilizing the Split Window Feature**
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+ 
+   ![](../images/M01/GS8.png)
+ 
+## **Managing Your Virtual Machine**
+ 
+Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+ 
+  ![](../images/M01/GS5.png)
 
-2. To get the lab environment details, you can select **Environment Details** tab. Additionally, the credentials will also be sent to your email address provided during registration.
+## **Let's Get Started with Azure Power Apps Portal**
 
-    ![](../images/M01-1/getstart-env.png)
+1. In the JumpVM, click on **Power Apps** portal shortcut of Microsoft Edge browser that is available on desktop.
 
-3. In the JumpVM, click on **Power Apps** portal shortcut of Microsoft Edge browser that is available on desktop.
-
-    ![](../images/M01-1/getstart-pp.png)
+    ![](../images/M01/GS22.png)
 
 4. On the **Sign in** window, you will see the login screen, enter the following username  and click on **Next**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-   ![](../images/M01-1/sign-in.png)
+        ![](../images/M01/GS2.png)
 
 5. Now enter the following **password**  and click on **Sign in**. 
 
     * Password: <inject key="AzureAdUserPassword"></inject>
   
-    ![](../images/M01-1/password.png)
+        ![](../images/M01/GS3.png)
 
 6.  Once logged in, click on **Environment** and select the default environment named **OTU WA CNE<inject key="Deployment ID" enableCopy="false" />**.
 
@@ -38,7 +61,11 @@
     ![](../images/M01-1/database.png)
 
 
-**Now you can click on **Next** on the bottom of the lab guide to start the HOL**
+1. Now, click on the **Next** from the lower right corner to move to the next page.
+
+   ![](../images/M01/GS4.png)
+ 
+Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
 
 
 
